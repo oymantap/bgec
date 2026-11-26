@@ -1,0 +1,6420 @@
+{
+  "metadata": {
+    "title": "193 United Nations Member States",
+    "count": 193,
+    "description": "Country records with basic ISO, geography, currency, flag, language, capital and other fields. Some fields may be blank or approximate depending on source data."
+  },
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "official_name": "Afghanistan",
+      "native_name": "افغانستان",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Kabul",
+      "iso_alpha2": "AF",
+      "iso_alpha3": "AFG",
+      "iso_numeric": "004",
+      "calling_codes": [
+        "93"
+      ],
+      "currency": [
+        {
+          "code": "AFN",
+          "name": "Afghani"
+        }
+      ],
+      "languages": [
+        "ps",
+        "uz",
+        "tk"
+      ],
+      "flag_emoji": "🇦🇫",
+      "flag_svg_url": "https://flagcdn.com/af.svg",
+      "top_level_domain": [
+        ".af",
+        "افغانستان."
+      ],
+      "population": 26023100,
+      "area_km2": 652230,
+      "timezones": [
+        "UTC+04:30"
+      ]
+    },
+    {
+      "name": "Albania",
+      "official_name": "Albania",
+      "native_name": "Shqipëria",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Tirana",
+      "iso_alpha2": "AL",
+      "iso_alpha3": "ALB",
+      "iso_numeric": "008",
+      "calling_codes": [
+        "355"
+      ],
+      "currency": [
+        {
+          "code": "ALL",
+          "name": "Lek"
+        }
+      ],
+      "languages": [
+        "sq"
+      ],
+      "flag_emoji": "🇦🇱",
+      "flag_svg_url": "https://flagcdn.com/al.svg",
+      "top_level_domain": [
+        ".al"
+      ],
+      "population": 2895947,
+      "area_km2": 28748,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Algeria",
+      "official_name": "Algeria",
+      "native_name": "الجزائر",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Algiers",
+      "iso_alpha2": "DZ",
+      "iso_alpha3": "DZA",
+      "iso_numeric": "012",
+      "calling_codes": [
+        "213"
+      ],
+      "currency": [
+        {
+          "code": "DZD",
+          "name": "Algerian Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇩🇿",
+      "flag_svg_url": "https://flagcdn.com/dz.svg",
+      "top_level_domain": [
+        ".dz",
+        "الجزائر."
+      ],
+      "population": 38700000,
+      "area_km2": 2381741,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Andorra",
+      "official_name": "Andorra",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "AD",
+      "iso_alpha3": "AND",
+      "iso_numeric": "020",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇦🇩",
+      "flag_svg_url": "https://flagcdn.com/ad.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Angola",
+      "official_name": "Angola",
+      "native_name": "Angola",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Luanda",
+      "iso_alpha2": "AO",
+      "iso_alpha3": "AGO",
+      "iso_numeric": "024",
+      "calling_codes": [
+        "244"
+      ],
+      "currency": [
+        {
+          "code": "AOA",
+          "name": "Kwanza"
+        }
+      ],
+      "languages": [
+        "pt"
+      ],
+      "flag_emoji": "🇦🇴",
+      "flag_svg_url": "https://flagcdn.com/ao.svg",
+      "top_level_domain": [
+        ".ao"
+      ],
+      "population": 24383301,
+      "area_km2": 1246700,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "official_name": "Antigua and Barbuda",
+      "native_name": "Antigua and Barbuda",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Saint John's",
+      "iso_alpha2": "AG",
+      "iso_alpha3": "ATG",
+      "iso_numeric": "028",
+      "calling_codes": [
+        "1268"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇦🇬",
+      "flag_svg_url": "https://flagcdn.com/ag.svg",
+      "top_level_domain": [
+        ".ag"
+      ],
+      "population": 86295,
+      "area_km2": 442,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Argentina",
+      "official_name": "Argentina",
+      "native_name": "Argentina",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Buenos Aires",
+      "iso_alpha2": "AR",
+      "iso_alpha3": "ARG",
+      "iso_numeric": "032",
+      "calling_codes": [
+        "54"
+      ],
+      "currency": [
+        {
+          "code": "ARS",
+          "name": "Argentine Peso"
+        }
+      ],
+      "languages": [
+        "es",
+        "gn"
+      ],
+      "flag_emoji": "🇦🇷",
+      "flag_svg_url": "https://flagcdn.com/ar.svg",
+      "top_level_domain": [
+        ".ar"
+      ],
+      "population": 42669500,
+      "area_km2": 2780400,
+      "timezones": [
+        "UTC−03:00"
+      ]
+    },
+    {
+      "name": "Armenia",
+      "official_name": "Armenia",
+      "native_name": "Հայաստան",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Yerevan",
+      "iso_alpha2": "AM",
+      "iso_alpha3": "ARM",
+      "iso_numeric": "051",
+      "calling_codes": [
+        "374"
+      ],
+      "currency": [
+        {
+          "code": "AMD",
+          "name": "Armenian Dram"
+        }
+      ],
+      "languages": [
+        "hy",
+        "ru"
+      ],
+      "flag_emoji": "🇦🇲",
+      "flag_svg_url": "https://flagcdn.com/am.svg",
+      "top_level_domain": [
+        ".am"
+      ],
+      "population": 3009800,
+      "area_km2": 29743,
+      "timezones": [
+        "UTC+04:00"
+      ]
+    },
+    {
+      "name": "Australia",
+      "official_name": "Australia",
+      "native_name": "Australia",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "capital": "Canberra",
+      "iso_alpha2": "AU",
+      "iso_alpha3": "AUS",
+      "iso_numeric": "036",
+      "calling_codes": [
+        "61"
+      ],
+      "currency": [
+        {
+          "code": "AUD",
+          "name": "Australian Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇦🇺",
+      "flag_svg_url": "https://flagcdn.com/au.svg",
+      "top_level_domain": [
+        ".au"
+      ],
+      "population": 23696900,
+      "area_km2": 7692024,
+      "timezones": [
+        "UTC+05:00",
+        "UTC+06:30",
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:30",
+        "UTC+10:00",
+        "UTC+10:30",
+        "UTC+11:30"
+      ]
+    },
+    {
+      "name": "Austria",
+      "official_name": "Austria",
+      "native_name": "Österreich",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Vienna",
+      "iso_alpha2": "AT",
+      "iso_alpha3": "AUT",
+      "iso_numeric": "040",
+      "calling_codes": [
+        "43"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "de"
+      ],
+      "flag_emoji": "🇦🇹",
+      "flag_svg_url": "https://flagcdn.com/at.svg",
+      "top_level_domain": [
+        ".at"
+      ],
+      "population": 8527230,
+      "area_km2": 83871,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Austria",
+      "official_name": "Austria",
+      "native_name": "Österreich",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Vienna",
+      "iso_alpha2": "AT",
+      "iso_alpha3": "AUT",
+      "iso_numeric": "040",
+      "calling_codes": [
+        "43"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "de"
+      ],
+      "flag_emoji": "🇦🇹",
+      "flag_svg_url": "https://flagcdn.com/at.svg",
+      "top_level_domain": [
+        ".at"
+      ],
+      "population": 8527230,
+      "area_km2": 83871,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "official_name": "Azerbaijan",
+      "native_name": "Azərbaycan",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Baku",
+      "iso_alpha2": "AZ",
+      "iso_alpha3": "AZE",
+      "iso_numeric": "031",
+      "calling_codes": [
+        "994"
+      ],
+      "currency": [
+        {
+          "code": "AZN",
+          "name": "Azerbaijan Manat"
+        }
+      ],
+      "languages": [
+        "az",
+        "hy"
+      ],
+      "flag_emoji": "🇦🇿",
+      "flag_svg_url": "https://flagcdn.com/az.svg",
+      "top_level_domain": [
+        ".az"
+      ],
+      "population": 9552500,
+      "area_km2": 86600,
+      "timezones": [
+        "UTC+04:00"
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "official_name": "Bahamas",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "BS",
+      "iso_alpha3": "BHS",
+      "iso_numeric": "044",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇧🇸",
+      "flag_svg_url": "https://flagcdn.com/bs.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Bahrain",
+      "official_name": "Bahrain",
+      "native_name": "‏البحرين",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Manama",
+      "iso_alpha2": "BH",
+      "iso_alpha3": "BHR",
+      "iso_numeric": "048",
+      "calling_codes": [
+        "973"
+      ],
+      "currency": [
+        {
+          "code": "BHD",
+          "name": "Bahraini Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇧🇭",
+      "flag_svg_url": "https://flagcdn.com/bh.svg",
+      "top_level_domain": [
+        ".bh"
+      ],
+      "population": 1316500,
+      "area_km2": 765,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "official_name": "Bangladesh",
+      "native_name": "বাংলাদেশ",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Dhaka",
+      "iso_alpha2": "BD",
+      "iso_alpha3": "BGD",
+      "iso_numeric": "050",
+      "calling_codes": [
+        "880"
+      ],
+      "currency": [
+        {
+          "code": "BDT",
+          "name": "Taka"
+        }
+      ],
+      "languages": [
+        "bn"
+      ],
+      "flag_emoji": "🇧🇩",
+      "flag_svg_url": "https://flagcdn.com/bd.svg",
+      "top_level_domain": [
+        ".bd"
+      ],
+      "population": 157486000,
+      "area_km2": 147570,
+      "timezones": [
+        "UTC+06:00"
+      ]
+    },
+    {
+      "name": "Barbados",
+      "official_name": "Barbados",
+      "native_name": "Barbados",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Bridgetown",
+      "iso_alpha2": "BB",
+      "iso_alpha3": "BRB",
+      "iso_numeric": "052",
+      "calling_codes": [
+        "1246"
+      ],
+      "currency": [
+        {
+          "code": "BBD",
+          "name": "Barbados Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇧🇧",
+      "flag_svg_url": "https://flagcdn.com/bb.svg",
+      "top_level_domain": [
+        ".bb"
+      ],
+      "population": 285000,
+      "area_km2": 430,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Belarus",
+      "official_name": "Belarus",
+      "native_name": "Белару́сь",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Minsk",
+      "iso_alpha2": "BY",
+      "iso_alpha3": "BLR",
+      "iso_numeric": "112",
+      "calling_codes": [
+        "375"
+      ],
+      "currency": [
+        {
+          "code": "BYR",
+          "name": "BYR"
+        }
+      ],
+      "languages": [
+        "be",
+        "ru"
+      ],
+      "flag_emoji": "🇧🇾",
+      "flag_svg_url": "https://flagcdn.com/by.svg",
+      "top_level_domain": [
+        ".by"
+      ],
+      "population": 9475100,
+      "area_km2": 207600,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Belgium",
+      "official_name": "Belgium",
+      "native_name": "België",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Brussels",
+      "iso_alpha2": "BE",
+      "iso_alpha3": "BEL",
+      "iso_numeric": "056",
+      "calling_codes": [
+        "32"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "nl",
+        "fr",
+        "de"
+      ],
+      "flag_emoji": "🇧🇪",
+      "flag_svg_url": "https://flagcdn.com/be.svg",
+      "top_level_domain": [
+        ".be"
+      ],
+      "population": 11225469,
+      "area_km2": 30528,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Belize",
+      "official_name": "Belize",
+      "native_name": "Belize",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Belmopan",
+      "iso_alpha2": "BZ",
+      "iso_alpha3": "BLZ",
+      "iso_numeric": "084",
+      "calling_codes": [
+        "501"
+      ],
+      "currency": [
+        {
+          "code": "BZD",
+          "name": "Belize Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "es"
+      ],
+      "flag_emoji": "🇧🇿",
+      "flag_svg_url": "https://flagcdn.com/bz.svg",
+      "top_level_domain": [
+        ".bz"
+      ],
+      "population": 349728,
+      "area_km2": 22966,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Benin",
+      "official_name": "Benin",
+      "native_name": "Bénin",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Porto-Novo",
+      "iso_alpha2": "BJ",
+      "iso_alpha3": "BEN",
+      "iso_numeric": "204",
+      "calling_codes": [
+        "229"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇧🇯",
+      "flag_svg_url": "https://flagcdn.com/bj.svg",
+      "top_level_domain": [
+        ".bj"
+      ],
+      "population": 9988068,
+      "area_km2": 112622,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "official_name": "Bhutan",
+      "native_name": "ʼbrug-yul",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Thimphu",
+      "iso_alpha2": "BT",
+      "iso_alpha3": "BTN",
+      "iso_numeric": "064",
+      "calling_codes": [
+        "975"
+      ],
+      "currency": [
+        {
+          "code": "BTN",
+          "name": "Ngultrum"
+        },
+        {
+          "code": "INR",
+          "name": "Indian Rupee"
+        }
+      ],
+      "languages": [
+        "dz"
+      ],
+      "flag_emoji": "🇧🇹",
+      "flag_svg_url": "https://flagcdn.com/bt.svg",
+      "top_level_domain": [
+        ".bt"
+      ],
+      "population": 755030,
+      "area_km2": 38394,
+      "timezones": [
+        "UTC+06:00"
+      ]
+    },
+    {
+      "name": "Bolivia, Plurinational State of",
+      "official_name": "Bolivia, Plurinational State of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "BO",
+      "iso_alpha3": "BOL",
+      "iso_numeric": "068",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇧🇴",
+      "flag_svg_url": "https://flagcdn.com/bo.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "official_name": "Bosnia and Herzegovina",
+      "native_name": "Bosna i Hercegovina",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Sarajevo",
+      "iso_alpha2": "BA",
+      "iso_alpha3": "BIH",
+      "iso_numeric": "070",
+      "calling_codes": [
+        "387"
+      ],
+      "currency": [
+        {
+          "code": "BAM",
+          "name": "Convertible Mark"
+        }
+      ],
+      "languages": [
+        "bs",
+        "hr",
+        "sr"
+      ],
+      "flag_emoji": "🇧🇦",
+      "flag_svg_url": "https://flagcdn.com/ba.svg",
+      "top_level_domain": [
+        ".ba"
+      ],
+      "population": 3791622,
+      "area_km2": 51209,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "official_name": "Botswana",
+      "native_name": "Botswana",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "capital": "Gaborone",
+      "iso_alpha2": "BW",
+      "iso_alpha3": "BWA",
+      "iso_numeric": "072",
+      "calling_codes": [
+        "267"
+      ],
+      "currency": [
+        {
+          "code": "BWP",
+          "name": "Pula"
+        }
+      ],
+      "languages": [
+        "en",
+        "tn"
+      ],
+      "flag_emoji": "🇧🇼",
+      "flag_svg_url": "https://flagcdn.com/bw.svg",
+      "top_level_domain": [
+        ".bw"
+      ],
+      "population": 2024904,
+      "area_km2": 582000,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Brazil",
+      "official_name": "Brazil",
+      "native_name": "Brasil",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Brasília",
+      "iso_alpha2": "BR",
+      "iso_alpha3": "BRA",
+      "iso_numeric": "076",
+      "calling_codes": [
+        "55"
+      ],
+      "currency": [
+        {
+          "code": "BRL",
+          "name": "Brazilian Real"
+        }
+      ],
+      "languages": [
+        "pt"
+      ],
+      "flag_emoji": "🇧🇷",
+      "flag_svg_url": "https://flagcdn.com/br.svg",
+      "top_level_domain": [
+        ".br"
+      ],
+      "population": 203586000,
+      "area_km2": 8515767,
+      "timezones": [
+        "UTC−05:00",
+        "UTC−04:00",
+        "UTC−03:00",
+        "UTC−02:00"
+      ]
+    },
+    {
+      "name": "Brunei Darussalam",
+      "official_name": "Brunei Darussalam",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "BN",
+      "iso_alpha3": "BRN",
+      "iso_numeric": "096",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇧🇳",
+      "flag_svg_url": "https://flagcdn.com/bn.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Bulgaria",
+      "official_name": "Bulgaria",
+      "native_name": "България",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Sofia",
+      "iso_alpha2": "BG",
+      "iso_alpha3": "BGR",
+      "iso_numeric": "100",
+      "calling_codes": [
+        "359"
+      ],
+      "currency": [
+        {
+          "code": "BGN",
+          "name": "Bulgarian Lev"
+        }
+      ],
+      "languages": [
+        "bg"
+      ],
+      "flag_emoji": "🇧🇬",
+      "flag_svg_url": "https://flagcdn.com/bg.svg",
+      "top_level_domain": [
+        ".bg"
+      ],
+      "population": 7245677,
+      "area_km2": 110879,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "official_name": "Burkina Faso",
+      "native_name": "Burkina Faso",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Ouagadougou",
+      "iso_alpha2": "BF",
+      "iso_alpha3": "BFA",
+      "iso_numeric": "854",
+      "calling_codes": [
+        "226"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr",
+        "ff"
+      ],
+      "flag_emoji": "🇧🇫",
+      "flag_svg_url": "https://flagcdn.com/bf.svg",
+      "top_level_domain": [
+        ".bf"
+      ],
+      "population": 17322796,
+      "area_km2": 272967,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Burundi",
+      "official_name": "Burundi",
+      "native_name": "Burundi",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Bujumbura",
+      "iso_alpha2": "BI",
+      "iso_alpha3": "BDI",
+      "iso_numeric": "108",
+      "calling_codes": [
+        "257"
+      ],
+      "currency": [
+        {
+          "code": "BIF",
+          "name": "Burundi Franc"
+        }
+      ],
+      "languages": [
+        "fr",
+        "rn"
+      ],
+      "flag_emoji": "🇧🇮",
+      "flag_svg_url": "https://flagcdn.com/bi.svg",
+      "top_level_domain": [
+        ".bi"
+      ],
+      "population": 9530434,
+      "area_km2": 27834,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Cabo Verde",
+      "official_name": "Cabo Verde",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "CV",
+      "iso_alpha3": "CPV",
+      "iso_numeric": "132",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇨🇻",
+      "flag_svg_url": "https://flagcdn.com/cv.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Cambodia",
+      "official_name": "Cambodia",
+      "native_name": "Kâmpŭchéa",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Phnom Penh",
+      "iso_alpha2": "KH",
+      "iso_alpha3": "KHM",
+      "iso_numeric": "116",
+      "calling_codes": [
+        "855"
+      ],
+      "currency": [
+        {
+          "code": "KHR",
+          "name": "Riel"
+        }
+      ],
+      "languages": [
+        "km"
+      ],
+      "flag_emoji": "🇰🇭",
+      "flag_svg_url": "https://flagcdn.com/kh.svg",
+      "top_level_domain": [
+        ".kh"
+      ],
+      "population": 15184116,
+      "area_km2": 181035,
+      "timezones": [
+        "UTC+07:00"
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "official_name": "Cameroon",
+      "native_name": "Cameroon",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Yaoundé",
+      "iso_alpha2": "CM",
+      "iso_alpha3": "CMR",
+      "iso_numeric": "120",
+      "calling_codes": [
+        "237"
+      ],
+      "currency": [
+        {
+          "code": "XAF",
+          "name": "CFA Franc BEAC"
+        }
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "flag_emoji": "🇨🇲",
+      "flag_svg_url": "https://flagcdn.com/cm.svg",
+      "top_level_domain": [
+        ".cm"
+      ],
+      "population": 20386799,
+      "area_km2": 475442,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Canada",
+      "official_name": "Canada",
+      "native_name": "Canada",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "capital": "Ottawa",
+      "iso_alpha2": "CA",
+      "iso_alpha3": "CAN",
+      "iso_numeric": "124",
+      "calling_codes": [
+        "1"
+      ],
+      "currency": [
+        {
+          "code": "CAD",
+          "name": "Canadian Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "flag_emoji": "🇨🇦",
+      "flag_svg_url": "https://flagcdn.com/ca.svg",
+      "top_level_domain": [
+        ".ca"
+      ],
+      "population": 35540419,
+      "area_km2": 9984670,
+      "timezones": [
+        "UTC−08:00",
+        "UTC−07:00",
+        "UTC−06:00",
+        "UTC−05:00",
+        "UTC−04:00",
+        "UTC−03:30"
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "official_name": "Central African Republic",
+      "native_name": "Ködörösêse tî Bêafrîka",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Bangui",
+      "iso_alpha2": "CF",
+      "iso_alpha3": "CAF",
+      "iso_numeric": "140",
+      "calling_codes": [
+        "236"
+      ],
+      "currency": [
+        {
+          "code": "XAF",
+          "name": "CFA Franc BEAC"
+        }
+      ],
+      "languages": [
+        "fr",
+        "sg"
+      ],
+      "flag_emoji": "🇨🇫",
+      "flag_svg_url": "https://flagcdn.com/cf.svg",
+      "top_level_domain": [
+        ".cf"
+      ],
+      "population": 4709000,
+      "area_km2": 622984,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Chad",
+      "official_name": "Chad",
+      "native_name": "Tchad",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "N'Djamena",
+      "iso_alpha2": "TD",
+      "iso_alpha3": "TCD",
+      "iso_numeric": "148",
+      "calling_codes": [
+        "235"
+      ],
+      "currency": [
+        {
+          "code": "XAF",
+          "name": "CFA Franc BEAC"
+        }
+      ],
+      "languages": [
+        "fr",
+        "ar"
+      ],
+      "flag_emoji": "🇹🇩",
+      "flag_svg_url": "https://flagcdn.com/td.svg",
+      "top_level_domain": [
+        ".td"
+      ],
+      "population": 13211000,
+      "area_km2": 1284000,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Chile",
+      "official_name": "Chile",
+      "native_name": "Chile",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Santiago",
+      "iso_alpha2": "CL",
+      "iso_alpha3": "CHL",
+      "iso_numeric": "152",
+      "calling_codes": [
+        "56"
+      ],
+      "currency": [
+        {
+          "code": "CLF",
+          "name": "Unidad de Fomento"
+        },
+        {
+          "code": "CLP",
+          "name": "Chilean Peso"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇨🇱",
+      "flag_svg_url": "https://flagcdn.com/cl.svg",
+      "top_level_domain": [
+        ".cl"
+      ],
+      "population": 17819054,
+      "area_km2": 756102,
+      "timezones": [
+        "UTC−06:00",
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "China",
+      "official_name": "China",
+      "native_name": "中国",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "capital": "Beijing",
+      "iso_alpha2": "CN",
+      "iso_alpha3": "CHN",
+      "iso_numeric": "156",
+      "calling_codes": [
+        "86"
+      ],
+      "currency": [
+        {
+          "code": "CNY",
+          "name": "Yuan Renminbi"
+        }
+      ],
+      "languages": [
+        "zh"
+      ],
+      "flag_emoji": "🇨🇳",
+      "flag_svg_url": "https://flagcdn.com/cn.svg",
+      "top_level_domain": [
+        ".cn"
+      ],
+      "population": 1367110000,
+      "area_km2": 9640011,
+      "timezones": [
+        "UTC+08:00"
+      ]
+    },
+    {
+      "name": "Colombia",
+      "official_name": "Colombia",
+      "native_name": "Colombia",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Bogotá",
+      "iso_alpha2": "CO",
+      "iso_alpha3": "COL",
+      "iso_numeric": "170",
+      "calling_codes": [
+        "57"
+      ],
+      "currency": [
+        {
+          "code": "COP",
+          "name": "Colombian Peso"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇨🇴",
+      "flag_svg_url": "https://flagcdn.com/co.svg",
+      "top_level_domain": [
+        ".co"
+      ],
+      "population": 47907800,
+      "area_km2": 1141748,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Comoros",
+      "official_name": "Comoros",
+      "native_name": "Komori",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Moroni",
+      "iso_alpha2": "KM",
+      "iso_alpha3": "COM",
+      "iso_numeric": "174",
+      "calling_codes": [
+        "269"
+      ],
+      "currency": [
+        {
+          "code": "KMF",
+          "name": "Comorian Franc"
+        }
+      ],
+      "languages": [
+        "ar",
+        "fr"
+      ],
+      "flag_emoji": "🇰🇲",
+      "flag_svg_url": "https://flagcdn.com/km.svg",
+      "top_level_domain": [
+        ".km"
+      ],
+      "population": 763952,
+      "area_km2": 1862,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Congo",
+      "official_name": "Congo",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "CG",
+      "iso_alpha3": "COG",
+      "iso_numeric": "178",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇨🇬",
+      "flag_svg_url": "https://flagcdn.com/cg.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Congo, The Democratic Republic of the",
+      "official_name": "Congo, The Democratic Republic of the",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "CD",
+      "iso_alpha3": "COD",
+      "iso_numeric": "180",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇨🇩",
+      "flag_svg_url": "https://flagcdn.com/cd.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Costa Rica",
+      "official_name": "Costa Rica",
+      "native_name": "Costa Rica",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "San José",
+      "iso_alpha2": "CR",
+      "iso_alpha3": "CRI",
+      "iso_numeric": "188",
+      "calling_codes": [
+        "506"
+      ],
+      "currency": [
+        {
+          "code": "CRC",
+          "name": "Costa Rican Colon"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇨🇷",
+      "flag_svg_url": "https://flagcdn.com/cr.svg",
+      "top_level_domain": [
+        ".cr"
+      ],
+      "population": 4713168,
+      "area_km2": 51100,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Croatia",
+      "official_name": "Croatia",
+      "native_name": "Hrvatska",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Zagreb",
+      "iso_alpha2": "HR",
+      "iso_alpha3": "HRV",
+      "iso_numeric": "191",
+      "calling_codes": [
+        "385"
+      ],
+      "currency": [
+        {
+          "code": "HRK",
+          "name": "Kuna"
+        }
+      ],
+      "languages": [
+        "hr"
+      ],
+      "flag_emoji": "🇭🇷",
+      "flag_svg_url": "https://flagcdn.com/hr.svg",
+      "top_level_domain": [
+        ".hr"
+      ],
+      "population": 4267558,
+      "area_km2": 56594,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Cuba",
+      "official_name": "Cuba",
+      "native_name": "Cuba",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Havana",
+      "iso_alpha2": "CU",
+      "iso_alpha3": "CUB",
+      "iso_numeric": "192",
+      "calling_codes": [
+        "53"
+      ],
+      "currency": [
+        {
+          "code": "CUC",
+          "name": "Peso Convertible"
+        },
+        {
+          "code": "CUP",
+          "name": "Cuban Peso"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇨🇺",
+      "flag_svg_url": "https://flagcdn.com/cu.svg",
+      "top_level_domain": [
+        ".cu"
+      ],
+      "population": 11210064,
+      "area_km2": 109884,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "official_name": "Cyprus",
+      "native_name": "Κύπρος",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Nicosia",
+      "iso_alpha2": "CY",
+      "iso_alpha3": "CYP",
+      "iso_numeric": "196",
+      "calling_codes": [
+        "357"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "el",
+        "tr",
+        "hy"
+      ],
+      "flag_emoji": "🇨🇾",
+      "flag_svg_url": "https://flagcdn.com/cy.svg",
+      "top_level_domain": [
+        ".cy"
+      ],
+      "population": 858000,
+      "area_km2": 9251,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Czechia",
+      "official_name": "Czech Republic",
+      "native_name": "Česká republika",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Prague",
+      "iso_alpha2": "CZ",
+      "iso_alpha3": "CZE",
+      "iso_numeric": "203",
+      "calling_codes": [
+        "420"
+      ],
+      "currency": [
+        {
+          "code": "CZK",
+          "name": "Czech Koruna"
+        }
+      ],
+      "languages": [
+        "cs",
+        "sk"
+      ],
+      "flag_emoji": "🇨🇿",
+      "flag_svg_url": "https://flagcdn.com/cz.svg",
+      "top_level_domain": [
+        ".cz"
+      ],
+      "population": 10521600,
+      "area_km2": 78865,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "official_name": "Côte d'Ivoire",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "CI",
+      "iso_alpha3": "CIV",
+      "iso_numeric": "384",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇨🇮",
+      "flag_svg_url": "https://flagcdn.com/ci.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Denmark",
+      "official_name": "Denmark",
+      "native_name": "Danmark",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Copenhagen",
+      "iso_alpha2": "DK",
+      "iso_alpha3": "DNK",
+      "iso_numeric": "208",
+      "calling_codes": [
+        "45"
+      ],
+      "currency": [
+        {
+          "code": "DKK",
+          "name": "Danish Krone"
+        }
+      ],
+      "languages": [
+        "da"
+      ],
+      "flag_emoji": "🇩🇰",
+      "flag_svg_url": "https://flagcdn.com/dk.svg",
+      "top_level_domain": [
+        ".dk"
+      ],
+      "population": 5655750,
+      "area_km2": 43094,
+      "timezones": [
+        "UTC−04:00",
+        "UTC−03:00",
+        "UTC−01:00",
+        "UTC",
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "official_name": "Djibouti",
+      "native_name": "Djibouti",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Djibouti",
+      "iso_alpha2": "DJ",
+      "iso_alpha3": "DJI",
+      "iso_numeric": "262",
+      "calling_codes": [
+        "253"
+      ],
+      "currency": [
+        {
+          "code": "DJF",
+          "name": "Djibouti Franc"
+        }
+      ],
+      "languages": [
+        "fr",
+        "ar"
+      ],
+      "flag_emoji": "🇩🇯",
+      "flag_svg_url": "https://flagcdn.com/dj.svg",
+      "top_level_domain": [
+        ".dj"
+      ],
+      "population": 886000,
+      "area_km2": 23200,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Dominica",
+      "official_name": "Dominica",
+      "native_name": "Dominica",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Roseau",
+      "iso_alpha2": "DM",
+      "iso_alpha3": "DMA",
+      "iso_numeric": "212",
+      "calling_codes": [
+        "1767"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇩🇲",
+      "flag_svg_url": "https://flagcdn.com/dm.svg",
+      "top_level_domain": [
+        ".dm"
+      ],
+      "population": 71293,
+      "area_km2": 751,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "official_name": "Dominican Republic",
+      "native_name": "República Dominicana",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Santo Domingo",
+      "iso_alpha2": "DO",
+      "iso_alpha3": "DOM",
+      "iso_numeric": "214",
+      "calling_codes": [
+        "1809",
+        "1829",
+        "1849"
+      ],
+      "currency": [
+        {
+          "code": "DOP",
+          "name": "Dominican Peso"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇩🇴",
+      "flag_svg_url": "https://flagcdn.com/do.svg",
+      "top_level_domain": [
+        ".do"
+      ],
+      "population": 10378267,
+      "area_km2": 48671,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Ecuador",
+      "official_name": "Ecuador",
+      "native_name": "Ecuador",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Quito",
+      "iso_alpha2": "EC",
+      "iso_alpha3": "ECU",
+      "iso_numeric": "218",
+      "calling_codes": [
+        "593"
+      ],
+      "currency": [
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇪🇨",
+      "flag_svg_url": "https://flagcdn.com/ec.svg",
+      "top_level_domain": [
+        ".ec"
+      ],
+      "population": 15888900,
+      "area_km2": 276841,
+      "timezones": [
+        "UTC−06:00",
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Egypt",
+      "official_name": "Egypt",
+      "native_name": "مصر‎",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Cairo",
+      "iso_alpha2": "EG",
+      "iso_alpha3": "EGY",
+      "iso_numeric": "818",
+      "calling_codes": [
+        "20"
+      ],
+      "currency": [
+        {
+          "code": "EGP",
+          "name": "Egyptian Pound"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇪🇬",
+      "flag_svg_url": "https://flagcdn.com/eg.svg",
+      "top_level_domain": [
+        ".eg"
+      ],
+      "population": 87668100,
+      "area_km2": 1002450,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "official_name": "El Salvador",
+      "native_name": "El Salvador",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "San Salvador",
+      "iso_alpha2": "SV",
+      "iso_alpha3": "SLV",
+      "iso_numeric": "222",
+      "calling_codes": [
+        "503"
+      ],
+      "currency": [
+        {
+          "code": "SVC",
+          "name": "El Salvador Colon"
+        },
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇸🇻",
+      "flag_svg_url": "https://flagcdn.com/sv.svg",
+      "top_level_domain": [
+        ".sv"
+      ],
+      "population": 6401240,
+      "area_km2": 21041,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "official_name": "Equatorial Guinea",
+      "native_name": "Guinea Ecuatorial",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Malabo",
+      "iso_alpha2": "GQ",
+      "iso_alpha3": "GNQ",
+      "iso_numeric": "226",
+      "calling_codes": [
+        "240"
+      ],
+      "currency": [
+        {
+          "code": "XAF",
+          "name": "CFA Franc BEAC"
+        }
+      ],
+      "languages": [
+        "es",
+        "fr"
+      ],
+      "flag_emoji": "🇬🇶",
+      "flag_svg_url": "https://flagcdn.com/gq.svg",
+      "top_level_domain": [
+        ".gq"
+      ],
+      "population": 1430000,
+      "area_km2": 28051,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "official_name": "Eritrea",
+      "native_name": "ኤርትራ",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Asmara",
+      "iso_alpha2": "ER",
+      "iso_alpha3": "ERI",
+      "iso_numeric": "232",
+      "calling_codes": [
+        "291"
+      ],
+      "currency": [
+        {
+          "code": "ERN",
+          "name": "Nakfa"
+        }
+      ],
+      "languages": [
+        "ti",
+        "ar",
+        "en"
+      ],
+      "flag_emoji": "🇪🇷",
+      "flag_svg_url": "https://flagcdn.com/er.svg",
+      "top_level_domain": [
+        ".er"
+      ],
+      "population": 6536000,
+      "area_km2": 117600,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Estonia",
+      "official_name": "Estonia",
+      "native_name": "Eesti",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Tallinn",
+      "iso_alpha2": "EE",
+      "iso_alpha3": "EST",
+      "iso_numeric": "233",
+      "calling_codes": [
+        "372"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "et"
+      ],
+      "flag_emoji": "🇪🇪",
+      "flag_svg_url": "https://flagcdn.com/ee.svg",
+      "top_level_domain": [
+        ".ee"
+      ],
+      "population": 1315819,
+      "area_km2": 45227,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "official_name": "Eswatini",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "SZ",
+      "iso_alpha3": "SWZ",
+      "iso_numeric": "748",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇸🇿",
+      "flag_svg_url": "https://flagcdn.com/sz.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Ethiopia",
+      "official_name": "Ethiopia",
+      "native_name": "ኢትዮጵያ",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Addis Ababa",
+      "iso_alpha2": "ET",
+      "iso_alpha3": "ETH",
+      "iso_numeric": "231",
+      "calling_codes": [
+        "251"
+      ],
+      "currency": [
+        {
+          "code": "ETB",
+          "name": "Ethiopian Birr"
+        }
+      ],
+      "languages": [
+        "am"
+      ],
+      "flag_emoji": "🇪🇹",
+      "flag_svg_url": "https://flagcdn.com/et.svg",
+      "top_level_domain": [
+        ".et"
+      ],
+      "population": 87952991,
+      "area_km2": 1104300,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Fiji",
+      "official_name": "Fiji",
+      "native_name": "Fiji",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "capital": "Suva",
+      "iso_alpha2": "FJ",
+      "iso_alpha3": "FJI",
+      "iso_numeric": "242",
+      "calling_codes": [
+        "679"
+      ],
+      "currency": [
+        {
+          "code": "FJD",
+          "name": "Fiji Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "fj",
+        "hi",
+        "ur"
+      ],
+      "flag_emoji": "🇫🇯",
+      "flag_svg_url": "https://flagcdn.com/fj.svg",
+      "top_level_domain": [
+        ".fj"
+      ],
+      "population": 859178,
+      "area_km2": 18272,
+      "timezones": [
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Finland",
+      "official_name": "Finland",
+      "native_name": "Suomi",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Helsinki",
+      "iso_alpha2": "FI",
+      "iso_alpha3": "FIN",
+      "iso_numeric": "246",
+      "calling_codes": [
+        "358"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "fi",
+        "sv"
+      ],
+      "flag_emoji": "🇫🇮",
+      "flag_svg_url": "https://flagcdn.com/fi.svg",
+      "top_level_domain": [
+        ".fi"
+      ],
+      "population": 5470437,
+      "area_km2": 338424,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "France",
+      "official_name": "France",
+      "native_name": "France",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Paris",
+      "iso_alpha2": "FR",
+      "iso_alpha3": "FRA",
+      "iso_numeric": "250",
+      "calling_codes": [
+        "33"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇫🇷",
+      "flag_svg_url": "https://flagcdn.com/fr.svg",
+      "top_level_domain": [
+        ".fr"
+      ],
+      "population": 66078000,
+      "area_km2": 640679,
+      "timezones": [
+        "UTC−10:00",
+        "UTC−09:30",
+        "UTC−09:00",
+        "UTC−08:00",
+        "UTC−04:00",
+        "UTC−03:00",
+        "UTC+01:00",
+        "UTC+03:00",
+        "UTC+04:00",
+        "UTC+05:00",
+        "UTC+11:00",
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Gabon",
+      "official_name": "Gabon",
+      "native_name": "Gabon",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Libreville",
+      "iso_alpha2": "GA",
+      "iso_alpha3": "GAB",
+      "iso_numeric": "266",
+      "calling_codes": [
+        "241"
+      ],
+      "currency": [
+        {
+          "code": "XAF",
+          "name": "CFA Franc BEAC"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇬🇦",
+      "flag_svg_url": "https://flagcdn.com/ga.svg",
+      "top_level_domain": [
+        ".ga"
+      ],
+      "population": 1711000,
+      "area_km2": 267668,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Gambia",
+      "official_name": "Gambia",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "GM",
+      "iso_alpha3": "GMB",
+      "iso_numeric": "270",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇬🇲",
+      "flag_svg_url": "https://flagcdn.com/gm.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Georgia",
+      "official_name": "Georgia",
+      "native_name": "საქართველო",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Tbilisi",
+      "iso_alpha2": "GE",
+      "iso_alpha3": "GEO",
+      "iso_numeric": "268",
+      "calling_codes": [
+        "995"
+      ],
+      "currency": [
+        {
+          "code": "GEL",
+          "name": "Lari"
+        }
+      ],
+      "languages": [
+        "ka"
+      ],
+      "flag_emoji": "🇬🇪",
+      "flag_svg_url": "https://flagcdn.com/ge.svg",
+      "top_level_domain": [
+        ".ge"
+      ],
+      "population": 4490500,
+      "area_km2": 69700,
+      "timezones": []
+    },
+    {
+      "name": "Germany",
+      "official_name": "Germany",
+      "native_name": "Deutschland",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Berlin",
+      "iso_alpha2": "DE",
+      "iso_alpha3": "DEU",
+      "iso_numeric": "276",
+      "calling_codes": [
+        "49"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "de"
+      ],
+      "flag_emoji": "🇩🇪",
+      "flag_svg_url": "https://flagcdn.com/de.svg",
+      "top_level_domain": [
+        ".de"
+      ],
+      "population": 80783000,
+      "area_km2": 357114,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "official_name": "Ghana",
+      "native_name": "Ghana",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Accra",
+      "iso_alpha2": "GH",
+      "iso_alpha3": "GHA",
+      "iso_numeric": "288",
+      "calling_codes": [
+        "233"
+      ],
+      "currency": [
+        {
+          "code": "GHS",
+          "name": "Ghana Cedi"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇬🇭",
+      "flag_svg_url": "https://flagcdn.com/gh.svg",
+      "top_level_domain": [
+        ".gh"
+      ],
+      "population": 27043093,
+      "area_km2": 238533,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Greece",
+      "official_name": "Greece",
+      "native_name": "Ελλάδα",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Athens",
+      "iso_alpha2": "GR",
+      "iso_alpha3": "GRC",
+      "iso_numeric": "300",
+      "calling_codes": [
+        "30"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "el"
+      ],
+      "flag_emoji": "🇬🇷",
+      "flag_svg_url": "https://flagcdn.com/gr.svg",
+      "top_level_domain": [
+        ".gr"
+      ],
+      "population": 10992589,
+      "area_km2": 131990,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Grenada",
+      "official_name": "Grenada",
+      "native_name": "Grenada",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "St. George's",
+      "iso_alpha2": "GD",
+      "iso_alpha3": "GRD",
+      "iso_numeric": "308",
+      "calling_codes": [
+        "1473"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇬🇩",
+      "flag_svg_url": "https://flagcdn.com/gd.svg",
+      "top_level_domain": [
+        ".gd"
+      ],
+      "population": 103328,
+      "area_km2": 344,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "official_name": "Guatemala",
+      "native_name": "Guatemala",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Guatemala City",
+      "iso_alpha2": "GT",
+      "iso_alpha3": "GTM",
+      "iso_numeric": "320",
+      "calling_codes": [
+        "502"
+      ],
+      "currency": [
+        {
+          "code": "GTQ",
+          "name": "Quetzal"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇬🇹",
+      "flag_svg_url": "https://flagcdn.com/gt.svg",
+      "top_level_domain": [
+        ".gt"
+      ],
+      "population": 15806675,
+      "area_km2": 108889,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Guinea",
+      "official_name": "Guinea",
+      "native_name": "Guinée",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Conakry",
+      "iso_alpha2": "GN",
+      "iso_alpha3": "GIN",
+      "iso_numeric": "324",
+      "calling_codes": [
+        "224"
+      ],
+      "currency": [
+        {
+          "code": "GNF",
+          "name": "Guinean Franc"
+        }
+      ],
+      "languages": [
+        "fr",
+        "ff"
+      ],
+      "flag_emoji": "🇬🇳",
+      "flag_svg_url": "https://flagcdn.com/gn.svg",
+      "top_level_domain": [
+        ".gn"
+      ],
+      "population": 10628972,
+      "area_km2": 245857,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "official_name": "Guinea-Bissau",
+      "native_name": "Guiné-Bissau",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Bissau",
+      "iso_alpha2": "GW",
+      "iso_alpha3": "GNB",
+      "iso_numeric": "624",
+      "calling_codes": [
+        "245"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "pt"
+      ],
+      "flag_emoji": "🇬🇼",
+      "flag_svg_url": "https://flagcdn.com/gw.svg",
+      "top_level_domain": [
+        ".gw"
+      ],
+      "population": 1746000,
+      "area_km2": 36125,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Guyana",
+      "official_name": "Guyana",
+      "native_name": "Guyana",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Georgetown",
+      "iso_alpha2": "GY",
+      "iso_alpha3": "GUY",
+      "iso_numeric": "328",
+      "calling_codes": [
+        "592"
+      ],
+      "currency": [
+        {
+          "code": "GYD",
+          "name": "Guyana Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇬🇾",
+      "flag_svg_url": "https://flagcdn.com/gy.svg",
+      "top_level_domain": [
+        ".gy"
+      ],
+      "population": 784894,
+      "area_km2": 214969,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Haiti",
+      "official_name": "Haiti",
+      "native_name": "Haïti",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Port-au-Prince",
+      "iso_alpha2": "HT",
+      "iso_alpha3": "HTI",
+      "iso_numeric": "332",
+      "calling_codes": [
+        "509"
+      ],
+      "currency": [
+        {
+          "code": "HTG",
+          "name": "Gourde"
+        },
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "fr",
+        "ht"
+      ],
+      "flag_emoji": "🇭🇹",
+      "flag_svg_url": "https://flagcdn.com/ht.svg",
+      "top_level_domain": [
+        ".ht"
+      ],
+      "population": 10745665,
+      "area_km2": 27750,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Honduras",
+      "official_name": "Honduras",
+      "native_name": "Honduras",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Tegucigalpa",
+      "iso_alpha2": "HN",
+      "iso_alpha3": "HND",
+      "iso_numeric": "340",
+      "calling_codes": [
+        "504"
+      ],
+      "currency": [
+        {
+          "code": "HNL",
+          "name": "Lempira"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇭🇳",
+      "flag_svg_url": "https://flagcdn.com/hn.svg",
+      "top_level_domain": [
+        ".hn"
+      ],
+      "population": 8725111,
+      "area_km2": 112492,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Hungary",
+      "official_name": "Hungary",
+      "native_name": "Magyarország",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Budapest",
+      "iso_alpha2": "HU",
+      "iso_alpha3": "HUN",
+      "iso_numeric": "348",
+      "calling_codes": [
+        "36"
+      ],
+      "currency": [
+        {
+          "code": "HUF",
+          "name": "Forint"
+        }
+      ],
+      "languages": [
+        "hu"
+      ],
+      "flag_emoji": "🇭🇺",
+      "flag_svg_url": "https://flagcdn.com/hu.svg",
+      "top_level_domain": [
+        ".hu"
+      ],
+      "population": 9879000,
+      "area_km2": 93028,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Iceland",
+      "official_name": "Iceland",
+      "native_name": "Ísland",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Reykjavik",
+      "iso_alpha2": "IS",
+      "iso_alpha3": "ISL",
+      "iso_numeric": "352",
+      "calling_codes": [
+        "354"
+      ],
+      "currency": [
+        {
+          "code": "ISK",
+          "name": "Iceland Krona"
+        }
+      ],
+      "languages": [
+        "is"
+      ],
+      "flag_emoji": "🇮🇸",
+      "flag_svg_url": "https://flagcdn.com/is.svg",
+      "top_level_domain": [
+        ".is"
+      ],
+      "population": 328170,
+      "area_km2": 103000,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "India",
+      "official_name": "India",
+      "native_name": "भारत",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "New Delhi",
+      "iso_alpha2": "IN",
+      "iso_alpha3": "IND",
+      "iso_numeric": "356",
+      "calling_codes": [
+        "91"
+      ],
+      "currency": [
+        {
+          "code": "INR",
+          "name": "Indian Rupee"
+        }
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "flag_emoji": "🇮🇳",
+      "flag_svg_url": "https://flagcdn.com/in.svg",
+      "top_level_domain": [
+        ".in"
+      ],
+      "population": 1263930000,
+      "area_km2": 3287590,
+      "timezones": [
+        "UTC+05:30"
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "official_name": "Indonesia",
+      "native_name": "Indonesia",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Jakarta",
+      "iso_alpha2": "ID",
+      "iso_alpha3": "IDN",
+      "iso_numeric": "360",
+      "calling_codes": [
+        "62"
+      ],
+      "currency": [
+        {
+          "code": "IDR",
+          "name": "Rupiah"
+        }
+      ],
+      "languages": [
+        "id"
+      ],
+      "flag_emoji": "🇮🇩",
+      "flag_svg_url": "https://flagcdn.com/id.svg",
+      "top_level_domain": [
+        ".id"
+      ],
+      "population": 252164800,
+      "area_km2": 1904569,
+      "timezones": [
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:00"
+      ]
+    },
+    {
+      "name": "Iran, Islamic Republic of",
+      "official_name": "Iran, Islamic Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "IR",
+      "iso_alpha3": "IRN",
+      "iso_numeric": "364",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇮🇷",
+      "flag_svg_url": "https://flagcdn.com/ir.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Iraq",
+      "official_name": "Iraq",
+      "native_name": "العراق",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Baghdad",
+      "iso_alpha2": "IQ",
+      "iso_alpha3": "IRQ",
+      "iso_numeric": "368",
+      "calling_codes": [
+        "964"
+      ],
+      "currency": [
+        {
+          "code": "IQD",
+          "name": "Iraqi Dinar"
+        }
+      ],
+      "languages": [
+        "ar",
+        "ku"
+      ],
+      "flag_emoji": "🇮🇶",
+      "flag_svg_url": "https://flagcdn.com/iq.svg",
+      "top_level_domain": [
+        ".iq"
+      ],
+      "population": 36004552,
+      "area_km2": 438317,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Ireland",
+      "official_name": "Ireland",
+      "native_name": "Éire",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Dublin",
+      "iso_alpha2": "IE",
+      "iso_alpha3": "IRL",
+      "iso_numeric": "372",
+      "calling_codes": [
+        "353"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "ga",
+        "en"
+      ],
+      "flag_emoji": "🇮🇪",
+      "flag_svg_url": "https://flagcdn.com/ie.svg",
+      "top_level_domain": [
+        ".ie"
+      ],
+      "population": 6378000,
+      "area_km2": 70273,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Israel",
+      "official_name": "Israel",
+      "native_name": "יִשְׂרָאֵל",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Jerusalem",
+      "iso_alpha2": "IL",
+      "iso_alpha3": "ISR",
+      "iso_numeric": "376",
+      "calling_codes": [
+        "972"
+      ],
+      "currency": [
+        {
+          "code": "ILS",
+          "name": "New Israeli Sheqel"
+        }
+      ],
+      "languages": [
+        "he",
+        "ar"
+      ],
+      "flag_emoji": "🇮🇱",
+      "flag_svg_url": "https://flagcdn.com/il.svg",
+      "top_level_domain": [
+        ".il"
+      ],
+      "population": 8268400,
+      "area_km2": 20770,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Italy",
+      "official_name": "Italy",
+      "native_name": "Italia",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Rome",
+      "iso_alpha2": "IT",
+      "iso_alpha3": "ITA",
+      "iso_numeric": "380",
+      "calling_codes": [
+        "39"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "it"
+      ],
+      "flag_emoji": "🇮🇹",
+      "flag_svg_url": "https://flagcdn.com/it.svg",
+      "top_level_domain": [
+        ".it"
+      ],
+      "population": 60769102,
+      "area_km2": 301336,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "official_name": "Jamaica",
+      "native_name": "Jamaica",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Kingston",
+      "iso_alpha2": "JM",
+      "iso_alpha3": "JAM",
+      "iso_numeric": "388",
+      "calling_codes": [
+        "1876"
+      ],
+      "currency": [
+        {
+          "code": "JMD",
+          "name": "Jamaican Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇯🇲",
+      "flag_svg_url": "https://flagcdn.com/jm.svg",
+      "top_level_domain": [
+        ".jm"
+      ],
+      "population": 2717991,
+      "area_km2": 10991,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Japan",
+      "official_name": "Japan",
+      "native_name": "日本",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "capital": "Tokyo",
+      "iso_alpha2": "JP",
+      "iso_alpha3": "JPN",
+      "iso_numeric": "392",
+      "calling_codes": [
+        "81"
+      ],
+      "currency": [
+        {
+          "code": "JPY",
+          "name": "Yen"
+        }
+      ],
+      "languages": [
+        "ja"
+      ],
+      "flag_emoji": "🇯🇵",
+      "flag_svg_url": "https://flagcdn.com/jp.svg",
+      "top_level_domain": [
+        ".jp"
+      ],
+      "population": 127080000,
+      "area_km2": 377930,
+      "timezones": [
+        "UTC+09:00"
+      ]
+    },
+    {
+      "name": "Jordan",
+      "official_name": "Jordan",
+      "native_name": "الأردن",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Amman",
+      "iso_alpha2": "JO",
+      "iso_alpha3": "JOR",
+      "iso_numeric": "400",
+      "calling_codes": [
+        "962"
+      ],
+      "currency": [
+        {
+          "code": "JOD",
+          "name": "Jordanian Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇯🇴",
+      "flag_svg_url": "https://flagcdn.com/jo.svg",
+      "top_level_domain": [
+        ".jo"
+      ],
+      "population": 6666960,
+      "area_km2": 89342,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "official_name": "Kazakhstan",
+      "native_name": "Қазақстан",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "capital": "Astana",
+      "iso_alpha2": "KZ",
+      "iso_alpha3": "KAZ",
+      "iso_numeric": "398",
+      "calling_codes": [
+        "76",
+        "77"
+      ],
+      "currency": [
+        {
+          "code": "KZT",
+          "name": "Tenge"
+        }
+      ],
+      "languages": [
+        "kk",
+        "ru"
+      ],
+      "flag_emoji": "🇰🇿",
+      "flag_svg_url": "https://flagcdn.com/kz.svg",
+      "top_level_domain": [
+        ".kz",
+        ".қаз"
+      ],
+      "population": 17377800,
+      "area_km2": 2724900,
+      "timezones": [
+        "UTC+05:00",
+        "UTC+06:00"
+      ]
+    },
+    {
+      "name": "Kenya",
+      "official_name": "Kenya",
+      "native_name": "Kenya",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Nairobi",
+      "iso_alpha2": "KE",
+      "iso_alpha3": "KEN",
+      "iso_numeric": "404",
+      "calling_codes": [
+        "254"
+      ],
+      "currency": [
+        {
+          "code": "KES",
+          "name": "Kenyan Shilling"
+        }
+      ],
+      "languages": [
+        "en",
+        "sw"
+      ],
+      "flag_emoji": "🇰🇪",
+      "flag_svg_url": "https://flagcdn.com/ke.svg",
+      "top_level_domain": [
+        ".ke"
+      ],
+      "population": 41800000,
+      "area_km2": 580367,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Kiribati",
+      "official_name": "Kiribati",
+      "native_name": "Kiribati",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "capital": "South Tarawa",
+      "iso_alpha2": "KI",
+      "iso_alpha3": "KIR",
+      "iso_numeric": "296",
+      "calling_codes": [
+        "686"
+      ],
+      "currency": [
+        {
+          "code": "AUD",
+          "name": "Australian Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇰🇮",
+      "flag_svg_url": "https://flagcdn.com/ki.svg",
+      "top_level_domain": [
+        ".ki"
+      ],
+      "population": 106461,
+      "area_km2": 811,
+      "timezones": [
+        "UTC+12:00",
+        "UTC+13:00",
+        "UTC+14:00"
+      ]
+    },
+    {
+      "name": "Korea, Democratic People's Republic of",
+      "official_name": "Korea, Democratic People's Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "KP",
+      "iso_alpha3": "PRK",
+      "iso_numeric": "408",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇰🇵",
+      "flag_svg_url": "https://flagcdn.com/kp.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Korea, Republic of",
+      "official_name": "Korea, Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "KR",
+      "iso_alpha3": "KOR",
+      "iso_numeric": "410",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇰🇷",
+      "flag_svg_url": "https://flagcdn.com/kr.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Kuwait",
+      "official_name": "Kuwait",
+      "native_name": "الكويت",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Kuwait City",
+      "iso_alpha2": "KW",
+      "iso_alpha3": "KWT",
+      "iso_numeric": "414",
+      "calling_codes": [
+        "965"
+      ],
+      "currency": [
+        {
+          "code": "KWD",
+          "name": "Kuwaiti Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇰🇼",
+      "flag_svg_url": "https://flagcdn.com/kw.svg",
+      "top_level_domain": [
+        ".kw"
+      ],
+      "population": 3268431,
+      "area_km2": 17818,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "official_name": "Kyrgyzstan",
+      "native_name": "Кыргызстан",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "capital": "Bishkek",
+      "iso_alpha2": "KG",
+      "iso_alpha3": "KGZ",
+      "iso_numeric": "417",
+      "calling_codes": [
+        "996"
+      ],
+      "currency": [
+        {
+          "code": "KGS",
+          "name": "Som"
+        }
+      ],
+      "languages": [
+        "ky",
+        "ru"
+      ],
+      "flag_emoji": "🇰🇬",
+      "flag_svg_url": "https://flagcdn.com/kg.svg",
+      "top_level_domain": [
+        ".kg"
+      ],
+      "population": 5776570,
+      "area_km2": 199951,
+      "timezones": [
+        "UTC+06:00"
+      ]
+    },
+    {
+      "name": "Lao People's Democratic Republic",
+      "official_name": "Lao People's Democratic Republic",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "LA",
+      "iso_alpha3": "LAO",
+      "iso_numeric": "418",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇱🇦",
+      "flag_svg_url": "https://flagcdn.com/la.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Latvia",
+      "official_name": "Latvia",
+      "native_name": "Latvija",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Riga",
+      "iso_alpha2": "LV",
+      "iso_alpha3": "LVA",
+      "iso_numeric": "428",
+      "calling_codes": [
+        "371"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "lv"
+      ],
+      "flag_emoji": "🇱🇻",
+      "flag_svg_url": "https://flagcdn.com/lv.svg",
+      "top_level_domain": [
+        ".lv"
+      ],
+      "population": 1991800,
+      "area_km2": 64559,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "official_name": "Lebanon",
+      "native_name": "لبنان",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Beirut",
+      "iso_alpha2": "LB",
+      "iso_alpha3": "LBN",
+      "iso_numeric": "422",
+      "calling_codes": [
+        "961"
+      ],
+      "currency": [
+        {
+          "code": "LBP",
+          "name": "Lebanese Pound"
+        }
+      ],
+      "languages": [
+        "ar",
+        "fr"
+      ],
+      "flag_emoji": "🇱🇧",
+      "flag_svg_url": "https://flagcdn.com/lb.svg",
+      "top_level_domain": [
+        ".lb"
+      ],
+      "population": 4104000,
+      "area_km2": 10452,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "official_name": "Lesotho",
+      "native_name": "Lesotho",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "capital": "Maseru",
+      "iso_alpha2": "LS",
+      "iso_alpha3": "LSO",
+      "iso_numeric": "426",
+      "calling_codes": [
+        "266"
+      ],
+      "currency": [
+        {
+          "code": "LSL",
+          "name": "Loti"
+        },
+        {
+          "code": "ZAR",
+          "name": "Rand"
+        }
+      ],
+      "languages": [
+        "en",
+        "st"
+      ],
+      "flag_emoji": "🇱🇸",
+      "flag_svg_url": "https://flagcdn.com/ls.svg",
+      "top_level_domain": [
+        ".ls"
+      ],
+      "population": 2098000,
+      "area_km2": 30355,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Liberia",
+      "official_name": "Liberia",
+      "native_name": "Liberia",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Monrovia",
+      "iso_alpha2": "LR",
+      "iso_alpha3": "LBR",
+      "iso_numeric": "430",
+      "calling_codes": [
+        "231"
+      ],
+      "currency": [
+        {
+          "code": "LRD",
+          "name": "Liberian Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇱🇷",
+      "flag_svg_url": "https://flagcdn.com/lr.svg",
+      "top_level_domain": [
+        ".lr"
+      ],
+      "population": 4397000,
+      "area_km2": 111369,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Libya",
+      "official_name": "Libya",
+      "native_name": "‏ليبيا",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Tripoli",
+      "iso_alpha2": "LY",
+      "iso_alpha3": "LBY",
+      "iso_numeric": "434",
+      "calling_codes": [
+        "218"
+      ],
+      "currency": [
+        {
+          "code": "LYD",
+          "name": "Libyan Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇱🇾",
+      "flag_svg_url": "https://flagcdn.com/ly.svg",
+      "top_level_domain": [
+        ".ly"
+      ],
+      "population": 6253000,
+      "area_km2": 1759540,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "official_name": "Liechtenstein",
+      "native_name": "Liechtenstein",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Vaduz",
+      "iso_alpha2": "LI",
+      "iso_alpha3": "LIE",
+      "iso_numeric": "438",
+      "calling_codes": [
+        "423"
+      ],
+      "currency": [
+        {
+          "code": "CHF",
+          "name": "Swiss Franc"
+        }
+      ],
+      "languages": [
+        "de"
+      ],
+      "flag_emoji": "🇱🇮",
+      "flag_svg_url": "https://flagcdn.com/li.svg",
+      "top_level_domain": [
+        ".li"
+      ],
+      "population": 37132,
+      "area_km2": 160,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "official_name": "Lithuania",
+      "native_name": "Lietuva",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Vilnius",
+      "iso_alpha2": "LT",
+      "iso_alpha3": "LTU",
+      "iso_numeric": "440",
+      "calling_codes": [
+        "370"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "lt"
+      ],
+      "flag_emoji": "🇱🇹",
+      "flag_svg_url": "https://flagcdn.com/lt.svg",
+      "top_level_domain": [
+        ".lt"
+      ],
+      "population": 2927310,
+      "area_km2": 65300,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "official_name": "Luxembourg",
+      "native_name": "Luxembourg",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Luxembourg",
+      "iso_alpha2": "LU",
+      "iso_alpha3": "LUX",
+      "iso_numeric": "442",
+      "calling_codes": [
+        "352"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "fr",
+        "de",
+        "lb"
+      ],
+      "flag_emoji": "🇱🇺",
+      "flag_svg_url": "https://flagcdn.com/lu.svg",
+      "top_level_domain": [
+        ".lu"
+      ],
+      "population": 549700,
+      "area_km2": 2586,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Madagascar",
+      "official_name": "Madagascar",
+      "native_name": "Madagasikara",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Antananarivo",
+      "iso_alpha2": "MG",
+      "iso_alpha3": "MDG",
+      "iso_numeric": "450",
+      "calling_codes": [
+        "261"
+      ],
+      "currency": [
+        {
+          "code": "MGA",
+          "name": "Malagasy Ariary"
+        }
+      ],
+      "languages": [
+        "fr",
+        "mg"
+      ],
+      "flag_emoji": "🇲🇬",
+      "flag_svg_url": "https://flagcdn.com/mg.svg",
+      "top_level_domain": [
+        ".mg"
+      ],
+      "population": 21842167,
+      "area_km2": 587041,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Malawi",
+      "official_name": "Malawi",
+      "native_name": "Malawi",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Lilongwe",
+      "iso_alpha2": "MW",
+      "iso_alpha3": "MWI",
+      "iso_numeric": "454",
+      "calling_codes": [
+        "265"
+      ],
+      "currency": [
+        {
+          "code": "MWK",
+          "name": "Malawi Kwacha"
+        }
+      ],
+      "languages": [
+        "en",
+        "ny"
+      ],
+      "flag_emoji": "🇲🇼",
+      "flag_svg_url": "https://flagcdn.com/mw.svg",
+      "top_level_domain": [
+        ".mw"
+      ],
+      "population": 15805239,
+      "area_km2": 118484,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "official_name": "Malaysia",
+      "native_name": "Malaysia",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Kuala Lumpur",
+      "iso_alpha2": "MY",
+      "iso_alpha3": "MYS",
+      "iso_numeric": "458",
+      "calling_codes": [
+        "60"
+      ],
+      "currency": [
+        {
+          "code": "MYR",
+          "name": "Malaysian Ringgit"
+        }
+      ],
+      "languages": [],
+      "flag_emoji": "🇲🇾",
+      "flag_svg_url": "https://flagcdn.com/my.svg",
+      "top_level_domain": [
+        ".my"
+      ],
+      "population": 30430500,
+      "area_km2": 330803,
+      "timezones": [
+        "UTC+08:00"
+      ]
+    },
+    {
+      "name": "Maldives",
+      "official_name": "Maldives",
+      "native_name": "Maldives",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Malé",
+      "iso_alpha2": "MV",
+      "iso_alpha3": "MDV",
+      "iso_numeric": "462",
+      "calling_codes": [
+        "960"
+      ],
+      "currency": [
+        {
+          "code": "MVR",
+          "name": "Rufiyaa"
+        }
+      ],
+      "languages": [
+        "dv"
+      ],
+      "flag_emoji": "🇲🇻",
+      "flag_svg_url": "https://flagcdn.com/mv.svg",
+      "top_level_domain": [
+        ".mv"
+      ],
+      "population": 341256,
+      "area_km2": 300,
+      "timezones": [
+        "UTC+05:00"
+      ]
+    },
+    {
+      "name": "Mali",
+      "official_name": "Mali",
+      "native_name": "Mali",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Bamako",
+      "iso_alpha2": "ML",
+      "iso_alpha3": "MLI",
+      "iso_numeric": "466",
+      "calling_codes": [
+        "223"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇲🇱",
+      "flag_svg_url": "https://flagcdn.com/ml.svg",
+      "top_level_domain": [
+        ".ml"
+      ],
+      "population": 15768000,
+      "area_km2": 1240192,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Malta",
+      "official_name": "Malta",
+      "native_name": "Malta",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Valletta",
+      "iso_alpha2": "MT",
+      "iso_alpha3": "MLT",
+      "iso_numeric": "470",
+      "calling_codes": [
+        "356"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "mt",
+        "en"
+      ],
+      "flag_emoji": "🇲🇹",
+      "flag_svg_url": "https://flagcdn.com/mt.svg",
+      "top_level_domain": [
+        ".mt"
+      ],
+      "population": 416055,
+      "area_km2": 316,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Marshall Islands",
+      "official_name": "Marshall Islands",
+      "native_name": "M̧ajeļ",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "capital": "Majuro",
+      "iso_alpha2": "MH",
+      "iso_alpha3": "MHL",
+      "iso_numeric": "584",
+      "calling_codes": [
+        "692"
+      ],
+      "currency": [
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "mh"
+      ],
+      "flag_emoji": "🇲🇭",
+      "flag_svg_url": "https://flagcdn.com/mh.svg",
+      "top_level_domain": [
+        ".mh"
+      ],
+      "population": 56086,
+      "area_km2": 181,
+      "timezones": [
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "official_name": "Mauritania",
+      "native_name": "موريتانيا",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Nouakchott",
+      "iso_alpha2": "MR",
+      "iso_alpha3": "MRT",
+      "iso_numeric": "478",
+      "calling_codes": [
+        "222"
+      ],
+      "currency": [
+        {
+          "code": "MRO",
+          "name": "MRO"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇲🇷",
+      "flag_svg_url": "https://flagcdn.com/mr.svg",
+      "top_level_domain": [
+        ".mr"
+      ],
+      "population": 3545620,
+      "area_km2": 1030700,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "official_name": "Mauritius",
+      "native_name": "Maurice",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Port Louis",
+      "iso_alpha2": "MU",
+      "iso_alpha3": "MUS",
+      "iso_numeric": "480",
+      "calling_codes": [
+        "230"
+      ],
+      "currency": [
+        {
+          "code": "MUR",
+          "name": "Mauritius Rupee"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇲🇺",
+      "flag_svg_url": "https://flagcdn.com/mu.svg",
+      "top_level_domain": [
+        ".mu"
+      ],
+      "population": 1261208,
+      "area_km2": 2040,
+      "timezones": [
+        "UTC+04:00"
+      ]
+    },
+    {
+      "name": "Mexico",
+      "official_name": "Mexico",
+      "native_name": "México",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Mexico City",
+      "iso_alpha2": "MX",
+      "iso_alpha3": "MEX",
+      "iso_numeric": "484",
+      "calling_codes": [
+        "52"
+      ],
+      "currency": [
+        {
+          "code": "MXN",
+          "name": "Mexican Peso"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇲🇽",
+      "flag_svg_url": "https://flagcdn.com/mx.svg",
+      "top_level_domain": [
+        ".mx"
+      ],
+      "population": 119713203,
+      "area_km2": 1964375,
+      "timezones": [
+        "UTC−08:00",
+        "UTC−07:00",
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Micronesia, Federated States of",
+      "official_name": "Micronesia, Federated States of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "FM",
+      "iso_alpha3": "FSM",
+      "iso_numeric": "583",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇫🇲",
+      "flag_svg_url": "https://flagcdn.com/fm.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Moldova, Republic of",
+      "official_name": "Moldova, Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "MD",
+      "iso_alpha3": "MDA",
+      "iso_numeric": "498",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇲🇩",
+      "flag_svg_url": "https://flagcdn.com/md.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Monaco",
+      "official_name": "Monaco",
+      "native_name": "Monaco",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Monaco",
+      "iso_alpha2": "MC",
+      "iso_alpha3": "MCO",
+      "iso_numeric": "492",
+      "calling_codes": [
+        "377"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇲🇨",
+      "flag_svg_url": "https://flagcdn.com/mc.svg",
+      "top_level_domain": [
+        ".mc"
+      ],
+      "population": 36950,
+      "area_km2": 2.02,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "official_name": "Mongolia",
+      "native_name": "Монгол улс",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "capital": "Ulan Bator",
+      "iso_alpha2": "MN",
+      "iso_alpha3": "MNG",
+      "iso_numeric": "496",
+      "calling_codes": [
+        "976"
+      ],
+      "currency": [
+        {
+          "code": "MNT",
+          "name": "Tugrik"
+        }
+      ],
+      "languages": [
+        "mn"
+      ],
+      "flag_emoji": "🇲🇳",
+      "flag_svg_url": "https://flagcdn.com/mn.svg",
+      "top_level_domain": [
+        ".mn"
+      ],
+      "population": 2987733,
+      "area_km2": 1564110,
+      "timezones": [
+        "UTC+07:00",
+        "UTC+08:00"
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "official_name": "Montenegro",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "ME",
+      "iso_alpha3": "MNE",
+      "iso_numeric": "499",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇲🇪",
+      "flag_svg_url": "https://flagcdn.com/me.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Morocco",
+      "official_name": "Morocco",
+      "native_name": "المغرب",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Rabat",
+      "iso_alpha2": "MA",
+      "iso_alpha3": "MAR",
+      "iso_numeric": "504",
+      "calling_codes": [
+        "212"
+      ],
+      "currency": [
+        {
+          "code": "MAD",
+          "name": "Moroccan Dirham"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇲🇦",
+      "flag_svg_url": "https://flagcdn.com/ma.svg",
+      "top_level_domain": [
+        ".ma"
+      ],
+      "population": 33465000,
+      "area_km2": 446550,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "official_name": "Mozambique",
+      "native_name": "Moçambique",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Maputo",
+      "iso_alpha2": "MZ",
+      "iso_alpha3": "MOZ",
+      "iso_numeric": "508",
+      "calling_codes": [
+        "258"
+      ],
+      "currency": [
+        {
+          "code": "MZN",
+          "name": "Mozambique Metical"
+        }
+      ],
+      "languages": [
+        "pt"
+      ],
+      "flag_emoji": "🇲🇿",
+      "flag_svg_url": "https://flagcdn.com/mz.svg",
+      "top_level_domain": [
+        ".mz"
+      ],
+      "population": 25041922,
+      "area_km2": 801590,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "official_name": "Myanmar",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "MM",
+      "iso_alpha3": "MMR",
+      "iso_numeric": "104",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇲🇲",
+      "flag_svg_url": "https://flagcdn.com/mm.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Namibia",
+      "official_name": "Namibia",
+      "native_name": "Namibia",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "capital": "Windhoek",
+      "iso_alpha2": "NA",
+      "iso_alpha3": "NAM",
+      "iso_numeric": "516",
+      "calling_codes": [
+        "264"
+      ],
+      "currency": [
+        {
+          "code": "NAD",
+          "name": "Namibia Dollar"
+        },
+        {
+          "code": "ZAR",
+          "name": "Rand"
+        }
+      ],
+      "languages": [
+        "en",
+        "af"
+      ],
+      "flag_emoji": "🇳🇦",
+      "flag_svg_url": "https://flagcdn.com/na.svg",
+      "top_level_domain": [
+        ".na"
+      ],
+      "population": 2113077,
+      "area_km2": 825615,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Nauru",
+      "official_name": "Nauru",
+      "native_name": "Nauru",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "capital": "Yaren",
+      "iso_alpha2": "NR",
+      "iso_alpha3": "NRU",
+      "iso_numeric": "520",
+      "calling_codes": [
+        "674"
+      ],
+      "currency": [
+        {
+          "code": "AUD",
+          "name": "Australian Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "na"
+      ],
+      "flag_emoji": "🇳🇷",
+      "flag_svg_url": "https://flagcdn.com/nr.svg",
+      "top_level_domain": [
+        ".nr"
+      ],
+      "population": 10084,
+      "area_km2": 21,
+      "timezones": [
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Nepal",
+      "official_name": "Nepal",
+      "native_name": "नेपाल",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Kathmandu",
+      "iso_alpha2": "NP",
+      "iso_alpha3": "NPL",
+      "iso_numeric": "524",
+      "calling_codes": [
+        "977"
+      ],
+      "currency": [
+        {
+          "code": "NPR",
+          "name": "Nepalese Rupee"
+        }
+      ],
+      "languages": [
+        "ne"
+      ],
+      "flag_emoji": "🇳🇵",
+      "flag_svg_url": "https://flagcdn.com/np.svg",
+      "top_level_domain": [
+        ".np"
+      ],
+      "population": 27646053,
+      "area_km2": 147181,
+      "timezones": [
+        "UTC+05:45"
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "official_name": "Netherlands",
+      "native_name": "Nederland",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Amsterdam",
+      "iso_alpha2": "NL",
+      "iso_alpha3": "NLD",
+      "iso_numeric": "528",
+      "calling_codes": [
+        "31"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "nl"
+      ],
+      "flag_emoji": "🇳🇱",
+      "flag_svg_url": "https://flagcdn.com/nl.svg",
+      "top_level_domain": [
+        ".nl"
+      ],
+      "population": 16881000,
+      "area_km2": 41850,
+      "timezones": []
+    },
+    {
+      "name": "New Zealand",
+      "official_name": "New Zealand",
+      "native_name": "New Zealand",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "capital": "Wellington",
+      "iso_alpha2": "NZ",
+      "iso_alpha3": "NZL",
+      "iso_numeric": "554",
+      "calling_codes": [
+        "64"
+      ],
+      "currency": [
+        {
+          "code": "NZD",
+          "name": "New Zealand Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "mi"
+      ],
+      "flag_emoji": "🇳🇿",
+      "flag_svg_url": "https://flagcdn.com/nz.svg",
+      "top_level_domain": [
+        ".nz"
+      ],
+      "population": 4547900,
+      "area_km2": 270467,
+      "timezones": [
+        "UTC−11:00",
+        "UTC−10:00",
+        "UTC+12:00",
+        "UTC+12:45",
+        "UTC+13:00"
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "official_name": "Nicaragua",
+      "native_name": "Nicaragua",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Managua",
+      "iso_alpha2": "NI",
+      "iso_alpha3": "NIC",
+      "iso_numeric": "558",
+      "calling_codes": [
+        "505"
+      ],
+      "currency": [
+        {
+          "code": "NIO",
+          "name": "Cordoba Oro"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇳🇮",
+      "flag_svg_url": "https://flagcdn.com/ni.svg",
+      "top_level_domain": [
+        ".ni"
+      ],
+      "population": 6134270,
+      "area_km2": 130373,
+      "timezones": [
+        "UTC−06:00"
+      ]
+    },
+    {
+      "name": "Niger",
+      "official_name": "Niger",
+      "native_name": "Niger",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Niamey",
+      "iso_alpha2": "NE",
+      "iso_alpha3": "NER",
+      "iso_numeric": "562",
+      "calling_codes": [
+        "227"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇳🇪",
+      "flag_svg_url": "https://flagcdn.com/ne.svg",
+      "top_level_domain": [
+        ".ne"
+      ],
+      "population": 17138707,
+      "area_km2": 1267000,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "official_name": "Nigeria",
+      "native_name": "Nigeria",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Abuja",
+      "iso_alpha2": "NG",
+      "iso_alpha3": "NGA",
+      "iso_numeric": "566",
+      "calling_codes": [
+        "234"
+      ],
+      "currency": [
+        {
+          "code": "NGN",
+          "name": "Naira"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇳🇬",
+      "flag_svg_url": "https://flagcdn.com/ng.svg",
+      "top_level_domain": [
+        ".ng"
+      ],
+      "population": 178517000,
+      "area_km2": 923768,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "official_name": "North Macedonia",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "MK",
+      "iso_alpha3": "MKD",
+      "iso_numeric": "807",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇲🇰",
+      "flag_svg_url": "https://flagcdn.com/mk.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Norway",
+      "official_name": "Norway",
+      "native_name": "Norge",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Oslo",
+      "iso_alpha2": "NO",
+      "iso_alpha3": "NOR",
+      "iso_numeric": "578",
+      "calling_codes": [
+        "47"
+      ],
+      "currency": [
+        {
+          "code": "NOK",
+          "name": "Norwegian Krone"
+        }
+      ],
+      "languages": [
+        "no",
+        "nb",
+        "nn"
+      ],
+      "flag_emoji": "🇳🇴",
+      "flag_svg_url": "https://flagcdn.com/no.svg",
+      "top_level_domain": [
+        ".no"
+      ],
+      "population": 5156450,
+      "area_km2": 323802,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Oman",
+      "official_name": "Oman",
+      "native_name": "عمان",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Muscat",
+      "iso_alpha2": "OM",
+      "iso_alpha3": "OMN",
+      "iso_numeric": "512",
+      "calling_codes": [
+        "968"
+      ],
+      "currency": [
+        {
+          "code": "OMR",
+          "name": "Rial Omani"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇴🇲",
+      "flag_svg_url": "https://flagcdn.com/om.svg",
+      "top_level_domain": [
+        ".om"
+      ],
+      "population": 4089076,
+      "area_km2": 309500,
+      "timezones": [
+        "UTC+04:00"
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "official_name": "Pakistan",
+      "native_name": "Pakistan",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Islamabad",
+      "iso_alpha2": "PK",
+      "iso_alpha3": "PAK",
+      "iso_numeric": "586",
+      "calling_codes": [
+        "92"
+      ],
+      "currency": [
+        {
+          "code": "PKR",
+          "name": "Pakistan Rupee"
+        }
+      ],
+      "languages": [
+        "en",
+        "ur"
+      ],
+      "flag_emoji": "🇵🇰",
+      "flag_svg_url": "https://flagcdn.com/pk.svg",
+      "top_level_domain": [
+        ".pk"
+      ],
+      "population": 188410000,
+      "area_km2": 881912,
+      "timezones": [
+        "UTC+05:00"
+      ]
+    },
+    {
+      "name": "Palau",
+      "official_name": "Palau",
+      "native_name": "Palau",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "capital": "Ngerulmud",
+      "iso_alpha2": "PW",
+      "iso_alpha3": "PLW",
+      "iso_numeric": "585",
+      "calling_codes": [
+        "680"
+      ],
+      "currency": [
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇵🇼",
+      "flag_svg_url": "https://flagcdn.com/pw.svg",
+      "top_level_domain": [
+        ".pw"
+      ],
+      "population": 20901,
+      "area_km2": 459,
+      "timezones": [
+        "UTC+09:00"
+      ]
+    },
+    {
+      "name": "Panama",
+      "official_name": "Panama",
+      "native_name": "Panamá",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Central America",
+      "capital": "Panama City",
+      "iso_alpha2": "PA",
+      "iso_alpha3": "PAN",
+      "iso_numeric": "591",
+      "calling_codes": [
+        "507"
+      ],
+      "currency": [
+        {
+          "code": "PAB",
+          "name": "Balboa"
+        },
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇵🇦",
+      "flag_svg_url": "https://flagcdn.com/pa.svg",
+      "top_level_domain": [
+        ".pa"
+      ],
+      "population": 3713312,
+      "area_km2": 75417,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "official_name": "Papua New Guinea",
+      "native_name": "Papua Niugini",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "capital": "Port Moresby",
+      "iso_alpha2": "PG",
+      "iso_alpha3": "PNG",
+      "iso_numeric": "598",
+      "calling_codes": [
+        "675"
+      ],
+      "currency": [
+        {
+          "code": "PGK",
+          "name": "Kina"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇵🇬",
+      "flag_svg_url": "https://flagcdn.com/pg.svg",
+      "top_level_domain": [
+        ".pg"
+      ],
+      "population": 7398500,
+      "area_km2": 462840,
+      "timezones": [
+        "UTC+10:00"
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "official_name": "Paraguay",
+      "native_name": "Paraguay",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Asunción",
+      "iso_alpha2": "PY",
+      "iso_alpha3": "PRY",
+      "iso_numeric": "600",
+      "calling_codes": [
+        "595"
+      ],
+      "currency": [
+        {
+          "code": "PYG",
+          "name": "Guarani"
+        }
+      ],
+      "languages": [
+        "es",
+        "gn"
+      ],
+      "flag_emoji": "🇵🇾",
+      "flag_svg_url": "https://flagcdn.com/py.svg",
+      "top_level_domain": [
+        ".py"
+      ],
+      "population": 6893727,
+      "area_km2": 406752,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Peru",
+      "official_name": "Peru",
+      "native_name": "Perú",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Lima",
+      "iso_alpha2": "PE",
+      "iso_alpha3": "PER",
+      "iso_numeric": "604",
+      "calling_codes": [
+        "51"
+      ],
+      "currency": [
+        {
+          "code": "PEN",
+          "name": "Sol"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇵🇪",
+      "flag_svg_url": "https://flagcdn.com/pe.svg",
+      "top_level_domain": [
+        ".pe"
+      ],
+      "population": 30814175,
+      "area_km2": 1285216,
+      "timezones": [
+        "UTC−05:00"
+      ]
+    },
+    {
+      "name": "Philippines",
+      "official_name": "Philippines",
+      "native_name": "Pilipinas",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Manila",
+      "iso_alpha2": "PH",
+      "iso_alpha3": "PHL",
+      "iso_numeric": "608",
+      "calling_codes": [
+        "63"
+      ],
+      "currency": [
+        {
+          "code": "PHP",
+          "name": "Philippine Peso"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇵🇭",
+      "flag_svg_url": "https://flagcdn.com/ph.svg",
+      "top_level_domain": [
+        ".ph"
+      ],
+      "population": 100697400,
+      "area_km2": 342353,
+      "timezones": [
+        "UTC+08:00"
+      ]
+    },
+    {
+      "name": "Poland",
+      "official_name": "Poland",
+      "native_name": "Polska",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Warsaw",
+      "iso_alpha2": "PL",
+      "iso_alpha3": "POL",
+      "iso_numeric": "616",
+      "calling_codes": [
+        "48"
+      ],
+      "currency": [
+        {
+          "code": "PLN",
+          "name": "Zloty"
+        }
+      ],
+      "languages": [
+        "pl"
+      ],
+      "flag_emoji": "🇵🇱",
+      "flag_svg_url": "https://flagcdn.com/pl.svg",
+      "top_level_domain": [
+        ".pl"
+      ],
+      "population": 38496000,
+      "area_km2": 312679,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "official_name": "Portugal",
+      "native_name": "Portugal",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Lisbon",
+      "iso_alpha2": "PT",
+      "iso_alpha3": "PRT",
+      "iso_numeric": "620",
+      "calling_codes": [
+        "351"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "pt"
+      ],
+      "flag_emoji": "🇵🇹",
+      "flag_svg_url": "https://flagcdn.com/pt.svg",
+      "top_level_domain": [
+        ".pt"
+      ],
+      "population": 10477800,
+      "area_km2": 92090,
+      "timezones": [
+        "UTC−01:00",
+        "UTC"
+      ]
+    },
+    {
+      "name": "Qatar",
+      "official_name": "Qatar",
+      "native_name": "قطر",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Doha",
+      "iso_alpha2": "QA",
+      "iso_alpha3": "QAT",
+      "iso_numeric": "634",
+      "calling_codes": [
+        "974"
+      ],
+      "currency": [
+        {
+          "code": "QAR",
+          "name": "Qatari Rial"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇶🇦",
+      "flag_svg_url": "https://flagcdn.com/qa.svg",
+      "top_level_domain": [
+        ".qa"
+      ],
+      "population": 2269672,
+      "area_km2": 11586,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Romania",
+      "official_name": "Romania",
+      "native_name": "România",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Bucharest",
+      "iso_alpha2": "RO",
+      "iso_alpha3": "ROU",
+      "iso_numeric": "642",
+      "calling_codes": [
+        "40"
+      ],
+      "currency": [
+        {
+          "code": "RON",
+          "name": "Romanian Leu"
+        }
+      ],
+      "languages": [
+        "ro"
+      ],
+      "flag_emoji": "🇷🇴",
+      "flag_svg_url": "https://flagcdn.com/ro.svg",
+      "top_level_domain": [
+        ".ro"
+      ],
+      "population": 19942642,
+      "area_km2": 238391,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Russian Federation",
+      "official_name": "Russian Federation",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "RU",
+      "iso_alpha3": "RUS",
+      "iso_numeric": "643",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇷🇺",
+      "flag_svg_url": "https://flagcdn.com/ru.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Rwanda",
+      "official_name": "Rwanda",
+      "native_name": "Rwanda",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Kigali",
+      "iso_alpha2": "RW",
+      "iso_alpha3": "RWA",
+      "iso_numeric": "646",
+      "calling_codes": [
+        "250"
+      ],
+      "currency": [
+        {
+          "code": "RWF",
+          "name": "Rwanda Franc"
+        }
+      ],
+      "languages": [
+        "rw",
+        "en",
+        "fr"
+      ],
+      "flag_emoji": "🇷🇼",
+      "flag_svg_url": "https://flagcdn.com/rw.svg",
+      "top_level_domain": [
+        ".rw"
+      ],
+      "population": 10996891,
+      "area_km2": 26338,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "official_name": "Saint Kitts and Nevis",
+      "native_name": "Saint Kitts and Nevis",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Basseterre",
+      "iso_alpha2": "KN",
+      "iso_alpha3": "KNA",
+      "iso_numeric": "659",
+      "calling_codes": [
+        "1869"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇰🇳",
+      "flag_svg_url": "https://flagcdn.com/kn.svg",
+      "top_level_domain": [
+        ".kn"
+      ],
+      "population": 55000,
+      "area_km2": 261,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "official_name": "Saint Lucia",
+      "native_name": "Saint Lucia",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Castries",
+      "iso_alpha2": "LC",
+      "iso_alpha3": "LCA",
+      "iso_numeric": "662",
+      "calling_codes": [
+        "1758"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇱🇨",
+      "flag_svg_url": "https://flagcdn.com/lc.svg",
+      "top_level_domain": [
+        ".lc"
+      ],
+      "population": 184000,
+      "area_km2": 616,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "official_name": "Saint Vincent and the Grenadines",
+      "native_name": "Saint Vincent and the Grenadines",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Kingstown",
+      "iso_alpha2": "VC",
+      "iso_alpha3": "VCT",
+      "iso_numeric": "670",
+      "calling_codes": [
+        "1784"
+      ],
+      "currency": [
+        {
+          "code": "XCD",
+          "name": "East Caribbean Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇻🇨",
+      "flag_svg_url": "https://flagcdn.com/vc.svg",
+      "top_level_domain": [
+        ".vc"
+      ],
+      "population": 109000,
+      "area_km2": 389,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "San Marino",
+      "official_name": "San Marino",
+      "native_name": "San Marino",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "City of San Marino",
+      "iso_alpha2": "SM",
+      "iso_alpha3": "SMR",
+      "iso_numeric": "674",
+      "calling_codes": [
+        "378"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "it"
+      ],
+      "flag_emoji": "🇸🇲",
+      "flag_svg_url": "https://flagcdn.com/sm.svg",
+      "top_level_domain": [
+        ".sm"
+      ],
+      "population": 32743,
+      "area_km2": 61,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "official_name": "Sao Tome and Principe",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "ST",
+      "iso_alpha3": "STP",
+      "iso_numeric": "678",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇸🇹",
+      "flag_svg_url": "https://flagcdn.com/st.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Saudi Arabia",
+      "official_name": "Saudi Arabia",
+      "native_name": "العربية السعودية",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Riyadh",
+      "iso_alpha2": "SA",
+      "iso_alpha3": "SAU",
+      "iso_numeric": "682",
+      "calling_codes": [
+        "966"
+      ],
+      "currency": [
+        {
+          "code": "SAR",
+          "name": "Saudi Riyal"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇸🇦",
+      "flag_svg_url": "https://flagcdn.com/sa.svg",
+      "top_level_domain": [
+        ".sa"
+      ],
+      "population": 30770375,
+      "area_km2": 2149690,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Senegal",
+      "official_name": "Senegal",
+      "native_name": "Sénégal",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Dakar",
+      "iso_alpha2": "SN",
+      "iso_alpha3": "SEN",
+      "iso_numeric": "686",
+      "calling_codes": [
+        "221"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇸🇳",
+      "flag_svg_url": "https://flagcdn.com/sn.svg",
+      "top_level_domain": [
+        ".sn"
+      ],
+      "population": 13508715,
+      "area_km2": 196722,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Serbia",
+      "official_name": "Serbia",
+      "native_name": "Srbija",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Belgrade",
+      "iso_alpha2": "RS",
+      "iso_alpha3": "SRB",
+      "iso_numeric": "688",
+      "calling_codes": [
+        "381"
+      ],
+      "currency": [
+        {
+          "code": "RSD",
+          "name": "Serbian Dinar"
+        }
+      ],
+      "languages": [
+        "rs"
+      ],
+      "flag_emoji": "🇷🇸",
+      "flag_svg_url": "https://flagcdn.com/rs.svg",
+      "top_level_domain": [
+        ".rs"
+      ],
+      "population": 7186862,
+      "area_km2": 49037,
+      "timezones": [
+        "UTC+01:00",
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "official_name": "Seychelles",
+      "native_name": "Seychelles",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Victoria",
+      "iso_alpha2": "SC",
+      "iso_alpha3": "SYC",
+      "iso_numeric": "690",
+      "calling_codes": [
+        "248"
+      ],
+      "currency": [
+        {
+          "code": "SCR",
+          "name": "Seychelles Rupee"
+        }
+      ],
+      "languages": [
+        "fr",
+        "en"
+      ],
+      "flag_emoji": "🇸🇨",
+      "flag_svg_url": "https://flagcdn.com/sc.svg",
+      "top_level_domain": [
+        ".sc"
+      ],
+      "population": 89949,
+      "area_km2": 452,
+      "timezones": [
+        "UTC+04:00"
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "official_name": "Sierra Leone",
+      "native_name": "Sierra Leone",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Freetown",
+      "iso_alpha2": "SL",
+      "iso_alpha3": "SLE",
+      "iso_numeric": "694",
+      "calling_codes": [
+        "232"
+      ],
+      "currency": [
+        {
+          "code": "SLL",
+          "name": "Leone"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇸🇱",
+      "flag_svg_url": "https://flagcdn.com/sl.svg",
+      "top_level_domain": [
+        ".sl"
+      ],
+      "population": 6205000,
+      "area_km2": 71740,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Singapore",
+      "official_name": "Singapore",
+      "native_name": "Singapore",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Singapore",
+      "iso_alpha2": "SG",
+      "iso_alpha3": "SGP",
+      "iso_numeric": "702",
+      "calling_codes": [
+        "65"
+      ],
+      "currency": [
+        {
+          "code": "SGD",
+          "name": "Singapore Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "ms",
+        "ta",
+        "zh"
+      ],
+      "flag_emoji": "🇸🇬",
+      "flag_svg_url": "https://flagcdn.com/sg.svg",
+      "top_level_domain": [
+        ".sg"
+      ],
+      "population": 5469700,
+      "area_km2": 710,
+      "timezones": [
+        "UTC+08:00"
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "official_name": "Slovakia",
+      "native_name": "Slovensko",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Bratislava",
+      "iso_alpha2": "SK",
+      "iso_alpha3": "SVK",
+      "iso_numeric": "703",
+      "calling_codes": [
+        "421"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "sk"
+      ],
+      "flag_emoji": "🇸🇰",
+      "flag_svg_url": "https://flagcdn.com/sk.svg",
+      "top_level_domain": [
+        ".sk"
+      ],
+      "population": 5415949,
+      "area_km2": 49037,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "official_name": "Slovenia",
+      "native_name": "Slovenija",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Ljubljana",
+      "iso_alpha2": "SI",
+      "iso_alpha3": "SVN",
+      "iso_numeric": "705",
+      "calling_codes": [
+        "386"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "sl"
+      ],
+      "flag_emoji": "🇸🇮",
+      "flag_svg_url": "https://flagcdn.com/si.svg",
+      "top_level_domain": [
+        ".si"
+      ],
+      "population": 2064966,
+      "area_km2": 20273,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "official_name": "Solomon Islands",
+      "native_name": "Solomon Islands",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "capital": "Honiara",
+      "iso_alpha2": "SB",
+      "iso_alpha3": "SLB",
+      "iso_numeric": "090",
+      "calling_codes": [
+        "677"
+      ],
+      "currency": [
+        {
+          "code": "SBD",
+          "name": "Solomon Islands Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇸🇧",
+      "flag_svg_url": "https://flagcdn.com/sb.svg",
+      "top_level_domain": [
+        ".sb"
+      ],
+      "population": 581344,
+      "area_km2": 28896,
+      "timezones": [
+        "UTC+11:00"
+      ]
+    },
+    {
+      "name": "Somalia",
+      "official_name": "Somalia",
+      "native_name": "Soomaaliya",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Mogadishu",
+      "iso_alpha2": "SO",
+      "iso_alpha3": "SOM",
+      "iso_numeric": "706",
+      "calling_codes": [
+        "252"
+      ],
+      "currency": [
+        {
+          "code": "SOS",
+          "name": "Somali Shilling"
+        }
+      ],
+      "languages": [
+        "so",
+        "ar"
+      ],
+      "flag_emoji": "🇸🇴",
+      "flag_svg_url": "https://flagcdn.com/so.svg",
+      "top_level_domain": [
+        ".so"
+      ],
+      "population": 10806000,
+      "area_km2": 637657,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "official_name": "South Africa",
+      "native_name": "South Africa",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "capital": "Pretoria",
+      "iso_alpha2": "ZA",
+      "iso_alpha3": "ZAF",
+      "iso_numeric": "710",
+      "calling_codes": [
+        "27"
+      ],
+      "currency": [
+        {
+          "code": "ZAR",
+          "name": "Rand"
+        }
+      ],
+      "languages": [
+        "af",
+        "en",
+        "nr",
+        "st",
+        "ss",
+        "tn",
+        "ts",
+        "ve",
+        "xh",
+        "zu"
+      ],
+      "flag_emoji": "🇿🇦",
+      "flag_svg_url": "https://flagcdn.com/za.svg",
+      "top_level_domain": [
+        ".za"
+      ],
+      "population": 54002000,
+      "area_km2": 1221037,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "official_name": "South Sudan",
+      "native_name": "South Sudan",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "capital": "Juba",
+      "iso_alpha2": "SS",
+      "iso_alpha3": "SSD",
+      "iso_numeric": "728",
+      "calling_codes": [
+        "211"
+      ],
+      "currency": [
+        {
+          "code": "SSP",
+          "name": "South Sudanese Pound"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇸🇸",
+      "flag_svg_url": "https://flagcdn.com/ss.svg",
+      "top_level_domain": [
+        ".ss"
+      ],
+      "population": 11384393,
+      "area_km2": 619745,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Spain",
+      "official_name": "Spain",
+      "native_name": "España",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "capital": "Madrid",
+      "iso_alpha2": "ES",
+      "iso_alpha3": "ESP",
+      "iso_numeric": "724",
+      "calling_codes": [
+        "34"
+      ],
+      "currency": [
+        {
+          "code": "EUR",
+          "name": "Euro"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇪🇸",
+      "flag_svg_url": "https://flagcdn.com/es.svg",
+      "top_level_domain": [
+        ".es"
+      ],
+      "population": 46507760,
+      "area_km2": 505992,
+      "timezones": [
+        "UTC",
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "official_name": "Sri Lanka",
+      "native_name": "śrī laṃkāva",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "capital": "Colombo",
+      "iso_alpha2": "LK",
+      "iso_alpha3": "LKA",
+      "iso_numeric": "144",
+      "calling_codes": [
+        "94"
+      ],
+      "currency": [
+        {
+          "code": "LKR",
+          "name": "Sri Lanka Rupee"
+        }
+      ],
+      "languages": [
+        "si",
+        "ta"
+      ],
+      "flag_emoji": "🇱🇰",
+      "flag_svg_url": "https://flagcdn.com/lk.svg",
+      "top_level_domain": [
+        ".lk"
+      ],
+      "population": 20277597,
+      "area_km2": 65610,
+      "timezones": [
+        "UTC+05:30"
+      ]
+    },
+    {
+      "name": "Sudan",
+      "official_name": "Sudan",
+      "native_name": "السودان",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Khartoum",
+      "iso_alpha2": "SD",
+      "iso_alpha3": "SDN",
+      "iso_numeric": "729",
+      "calling_codes": [
+        "249"
+      ],
+      "currency": [
+        {
+          "code": "SDG",
+          "name": "Sudanese Pound"
+        }
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "flag_emoji": "🇸🇩",
+      "flag_svg_url": "https://flagcdn.com/sd.svg",
+      "top_level_domain": [
+        ".sd"
+      ],
+      "population": 37289406,
+      "area_km2": 1886068,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Suriname",
+      "official_name": "Suriname",
+      "native_name": "Suriname",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Paramaribo",
+      "iso_alpha2": "SR",
+      "iso_alpha3": "SUR",
+      "iso_numeric": "740",
+      "calling_codes": [
+        "597"
+      ],
+      "currency": [
+        {
+          "code": "SRD",
+          "name": "Surinam Dollar"
+        }
+      ],
+      "languages": [
+        "nl"
+      ],
+      "flag_emoji": "🇸🇷",
+      "flag_svg_url": "https://flagcdn.com/sr.svg",
+      "top_level_domain": [
+        ".sr"
+      ],
+      "population": 534189,
+      "area_km2": 163820,
+      "timezones": [
+        "UTC−03:00"
+      ]
+    },
+    {
+      "name": "Sweden",
+      "official_name": "Sweden",
+      "native_name": "Sverige",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "Stockholm",
+      "iso_alpha2": "SE",
+      "iso_alpha3": "SWE",
+      "iso_numeric": "752",
+      "calling_codes": [
+        "46"
+      ],
+      "currency": [
+        {
+          "code": "SEK",
+          "name": "Swedish Krona"
+        }
+      ],
+      "languages": [
+        "sv"
+      ],
+      "flag_emoji": "🇸🇪",
+      "flag_svg_url": "https://flagcdn.com/se.svg",
+      "top_level_domain": [
+        ".se"
+      ],
+      "population": 9737521,
+      "area_km2": 450295,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "official_name": "Switzerland",
+      "native_name": "Schweiz",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "capital": "Bern",
+      "iso_alpha2": "CH",
+      "iso_alpha3": "CHE",
+      "iso_numeric": "756",
+      "calling_codes": [
+        "41"
+      ],
+      "currency": [
+        {
+          "code": "CHE",
+          "name": "WIR Euro"
+        },
+        {
+          "code": "CHF",
+          "name": "Swiss Franc"
+        },
+        {
+          "code": "CHW",
+          "name": "WIR Franc"
+        }
+      ],
+      "languages": [
+        "de",
+        "fr",
+        "it"
+      ],
+      "flag_emoji": "🇨🇭",
+      "flag_svg_url": "https://flagcdn.com/ch.svg",
+      "top_level_domain": [
+        ".ch"
+      ],
+      "population": 8183800,
+      "area_km2": 41284,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Syrian Arab Republic",
+      "official_name": "Syrian Arab Republic",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "SY",
+      "iso_alpha3": "SYR",
+      "iso_numeric": "760",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇸🇾",
+      "flag_svg_url": "https://flagcdn.com/sy.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Tajikistan",
+      "official_name": "Tajikistan",
+      "native_name": "Тоҷикистон",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "capital": "Dushanbe",
+      "iso_alpha2": "TJ",
+      "iso_alpha3": "TJK",
+      "iso_numeric": "762",
+      "calling_codes": [
+        "992"
+      ],
+      "currency": [
+        {
+          "code": "TJS",
+          "name": "Somoni"
+        }
+      ],
+      "languages": [
+        "tg",
+        "ru"
+      ],
+      "flag_emoji": "🇹🇯",
+      "flag_svg_url": "https://flagcdn.com/tj.svg",
+      "top_level_domain": [
+        ".tj"
+      ],
+      "population": 8161000,
+      "area_km2": 143100,
+      "timezones": [
+        "UTC+05:00"
+      ]
+    },
+    {
+      "name": "Tanzania, United Republic of",
+      "official_name": "Tanzania, United Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "TZ",
+      "iso_alpha3": "TZA",
+      "iso_numeric": "834",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇹🇿",
+      "flag_svg_url": "https://flagcdn.com/tz.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Thailand",
+      "official_name": "Thailand",
+      "native_name": "ประเทศไทย",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "capital": "Bangkok",
+      "iso_alpha2": "TH",
+      "iso_alpha3": "THA",
+      "iso_numeric": "764",
+      "calling_codes": [
+        "66"
+      ],
+      "currency": [
+        {
+          "code": "THB",
+          "name": "Baht"
+        }
+      ],
+      "languages": [
+        "th"
+      ],
+      "flag_emoji": "🇹🇭",
+      "flag_svg_url": "https://flagcdn.com/th.svg",
+      "top_level_domain": [
+        ".th"
+      ],
+      "population": 64871000,
+      "area_km2": 513120,
+      "timezones": [
+        "UTC+07:00"
+      ]
+    },
+    {
+      "name": "Timor-Leste",
+      "official_name": "Timor-Leste",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "TL",
+      "iso_alpha3": "TLS",
+      "iso_numeric": "626",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇹🇱",
+      "flag_svg_url": "https://flagcdn.com/tl.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Togo",
+      "official_name": "Togo",
+      "native_name": "Togo",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "capital": "Lomé",
+      "iso_alpha2": "TG",
+      "iso_alpha3": "TGO",
+      "iso_numeric": "768",
+      "calling_codes": [
+        "228"
+      ],
+      "currency": [
+        {
+          "code": "XOF",
+          "name": "CFA Franc BCEAO"
+        }
+      ],
+      "languages": [
+        "fr"
+      ],
+      "flag_emoji": "🇹🇬",
+      "flag_svg_url": "https://flagcdn.com/tg.svg",
+      "top_level_domain": [
+        ".tg"
+      ],
+      "population": 6993000,
+      "area_km2": 56785,
+      "timezones": [
+        "UTC"
+      ]
+    },
+    {
+      "name": "Tonga",
+      "official_name": "Tonga",
+      "native_name": "Tonga",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "capital": "Nuku'alofa",
+      "iso_alpha2": "TO",
+      "iso_alpha3": "TON",
+      "iso_numeric": "776",
+      "calling_codes": [
+        "676"
+      ],
+      "currency": [
+        {
+          "code": "TOP",
+          "name": "Pa’anga"
+        }
+      ],
+      "languages": [
+        "en",
+        "to"
+      ],
+      "flag_emoji": "🇹🇴",
+      "flag_svg_url": "https://flagcdn.com/to.svg",
+      "top_level_domain": [
+        ".to"
+      ],
+      "population": 103252,
+      "area_km2": 747,
+      "timezones": [
+        "UTC+13:00"
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "official_name": "Trinidad and Tobago",
+      "native_name": "Trinidad and Tobago",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "capital": "Port of Spain",
+      "iso_alpha2": "TT",
+      "iso_alpha3": "TTO",
+      "iso_numeric": "780",
+      "calling_codes": [
+        "1868"
+      ],
+      "currency": [
+        {
+          "code": "TTD",
+          "name": "Trinidad and Tobago Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇹🇹",
+      "flag_svg_url": "https://flagcdn.com/tt.svg",
+      "top_level_domain": [
+        ".tt"
+      ],
+      "population": 1328019,
+      "area_km2": 5130,
+      "timezones": [
+        "UTC−04:00"
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "official_name": "Tunisia",
+      "native_name": "تونس",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "capital": "Tunis",
+      "iso_alpha2": "TN",
+      "iso_alpha3": "TUN",
+      "iso_numeric": "788",
+      "calling_codes": [
+        "216"
+      ],
+      "currency": [
+        {
+          "code": "TND",
+          "name": "Tunisian Dinar"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇹🇳",
+      "flag_svg_url": "https://flagcdn.com/tn.svg",
+      "top_level_domain": [
+        ".tn"
+      ],
+      "population": 10982754,
+      "area_km2": 163610,
+      "timezones": [
+        "UTC+01:00"
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "official_name": "Turkmenistan",
+      "native_name": "Türkmenistan",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "capital": "Ashgabat",
+      "iso_alpha2": "TM",
+      "iso_alpha3": "TKM",
+      "iso_numeric": "795",
+      "calling_codes": [
+        "993"
+      ],
+      "currency": [
+        {
+          "code": "TMT",
+          "name": "Turkmenistan New Manat"
+        }
+      ],
+      "languages": [
+        "tk",
+        "ru"
+      ],
+      "flag_emoji": "🇹🇲",
+      "flag_svg_url": "https://flagcdn.com/tm.svg",
+      "top_level_domain": [
+        ".tm"
+      ],
+      "population": 5838064,
+      "area_km2": 488100,
+      "timezones": [
+        "UTC+05:00"
+      ]
+    },
+    {
+      "name": "Tuvalu",
+      "official_name": "Tuvalu",
+      "native_name": "Tuvalu",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "capital": "Funafuti",
+      "iso_alpha2": "TV",
+      "iso_alpha3": "TUV",
+      "iso_numeric": "798",
+      "calling_codes": [
+        "688"
+      ],
+      "currency": [
+        {
+          "code": "AUD",
+          "name": "Australian Dollar"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇹🇻",
+      "flag_svg_url": "https://flagcdn.com/tv.svg",
+      "top_level_domain": [
+        ".tv"
+      ],
+      "population": 11323,
+      "area_km2": 26,
+      "timezones": [
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Türkiye",
+      "official_name": "Türkiye",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "TR",
+      "iso_alpha3": "TUR",
+      "iso_numeric": "792",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇹🇷",
+      "flag_svg_url": "https://flagcdn.com/tr.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Uganda",
+      "official_name": "Uganda",
+      "native_name": "Uganda",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Kampala",
+      "iso_alpha2": "UG",
+      "iso_alpha3": "UGA",
+      "iso_numeric": "800",
+      "calling_codes": [
+        "256"
+      ],
+      "currency": [
+        {
+          "code": "UGX",
+          "name": "Uganda Shilling"
+        }
+      ],
+      "languages": [
+        "en",
+        "sw"
+      ],
+      "flag_emoji": "🇺🇬",
+      "flag_svg_url": "https://flagcdn.com/ug.svg",
+      "top_level_domain": [
+        ".ug"
+      ],
+      "population": 34856813,
+      "area_km2": 241550,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "official_name": "Ukraine",
+      "native_name": "Україна",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "capital": "Kiev",
+      "iso_alpha2": "UA",
+      "iso_alpha3": "UKR",
+      "iso_numeric": "804",
+      "calling_codes": [
+        "380"
+      ],
+      "currency": [
+        {
+          "code": "UAH",
+          "name": "Hryvnia"
+        }
+      ],
+      "languages": [
+        "uk"
+      ],
+      "flag_emoji": "🇺🇦",
+      "flag_svg_url": "https://flagcdn.com/ua.svg",
+      "top_level_domain": [
+        ".ua"
+      ],
+      "population": 42973696,
+      "area_km2": 603700,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "official_name": "United Arab Emirates",
+      "native_name": "دولة الإمارات العربية المتحدة",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Abu Dhabi",
+      "iso_alpha2": "AE",
+      "iso_alpha3": "ARE",
+      "iso_numeric": "784",
+      "calling_codes": [
+        "971"
+      ],
+      "currency": [
+        {
+          "code": "AED",
+          "name": "UAE Dirham"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇦🇪",
+      "flag_svg_url": "https://flagcdn.com/ae.svg",
+      "top_level_domain": [
+        ".ae"
+      ],
+      "population": 9446000,
+      "area_km2": 83600,
+      "timezones": [
+        "UTC+04"
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "official_name": "United Kingdom",
+      "native_name": "United Kingdom",
+      "continent": "Eropa",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "capital": "London",
+      "iso_alpha2": "GB",
+      "iso_alpha3": "GBR",
+      "iso_numeric": "826",
+      "calling_codes": [
+        "44"
+      ],
+      "currency": [
+        {
+          "code": "GBP",
+          "name": "Pound Sterling"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇬🇧",
+      "flag_svg_url": "https://flagcdn.com/gb.svg",
+      "top_level_domain": [
+        ".uk"
+      ],
+      "population": 64105654,
+      "area_km2": 242900,
+      "timezones": [
+        "UTC−08:00",
+        "UTC−05:00",
+        "UTC−04:00",
+        "UTC−03:00",
+        "UTC−02:00",
+        "UTC",
+        "UTC+01:00",
+        "UTC+02:00",
+        "UTC+06:00"
+      ]
+    },
+    {
+      "name": "United States",
+      "official_name": "United States",
+      "native_name": "United States",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "capital": "Washington D.C.",
+      "iso_alpha2": "US",
+      "iso_alpha3": "USA",
+      "iso_numeric": "840",
+      "calling_codes": [
+        "1"
+      ],
+      "currency": [
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        },
+        {
+          "code": "USN",
+          "name": "US Dollar (Next day)"
+        },
+        {
+          "code": "USS",
+          "name": "USS"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇺🇸",
+      "flag_svg_url": "https://flagcdn.com/us.svg",
+      "top_level_domain": [
+        ".us"
+      ],
+      "population": 319259000,
+      "area_km2": 9629091,
+      "timezones": [
+        "UTC−12:00",
+        "UTC−11:00",
+        "UTC−10:00",
+        "UTC−09:00",
+        "UTC−08:00",
+        "UTC−07:00",
+        "UTC−06:00",
+        "UTC−05:00",
+        "UTC−04:00",
+        "UTC+10:00",
+        "UTC+12:00"
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "official_name": "Uruguay",
+      "native_name": "Uruguay",
+      "continent": "Amerika",
+      "region": "Americas",
+      "subregion": "South America",
+      "capital": "Montevideo",
+      "iso_alpha2": "UY",
+      "iso_alpha3": "URY",
+      "iso_numeric": "858",
+      "calling_codes": [
+        "598"
+      ],
+      "currency": [
+        {
+          "code": "UYI",
+          "name": "Uruguay Peso en Unidades Indexadas (UI)"
+        },
+        {
+          "code": "UYU",
+          "name": "Peso Uruguayo"
+        }
+      ],
+      "languages": [
+        "es"
+      ],
+      "flag_emoji": "🇺🇾",
+      "flag_svg_url": "https://flagcdn.com/uy.svg",
+      "top_level_domain": [
+        ".uy"
+      ],
+      "population": 3404189,
+      "area_km2": 181034,
+      "timezones": [
+        "UTC−03:00"
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "official_name": "Uzbekistan",
+      "native_name": "O‘zbekiston",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Central Asia",
+      "capital": "Tashkent",
+      "iso_alpha2": "UZ",
+      "iso_alpha3": "UZB",
+      "iso_numeric": "860",
+      "calling_codes": [
+        "998"
+      ],
+      "currency": [
+        {
+          "code": "UZS",
+          "name": "Uzbekistan Sum"
+        }
+      ],
+      "languages": [
+        "uz",
+        "ru"
+      ],
+      "flag_emoji": "🇺🇿",
+      "flag_svg_url": "https://flagcdn.com/uz.svg",
+      "top_level_domain": [
+        ".uz"
+      ],
+      "population": 30492800,
+      "area_km2": 447400,
+      "timezones": [
+        "UTC+05:00"
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "official_name": "Vanuatu",
+      "native_name": "Vanuatu",
+      "continent": "Oseania",
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "capital": "Port Vila",
+      "iso_alpha2": "VU",
+      "iso_alpha3": "VUT",
+      "iso_numeric": "548",
+      "calling_codes": [
+        "678"
+      ],
+      "currency": [
+        {
+          "code": "VUV",
+          "name": "Vatu"
+        }
+      ],
+      "languages": [
+        "bi",
+        "en",
+        "fr"
+      ],
+      "flag_emoji": "🇻🇺",
+      "flag_svg_url": "https://flagcdn.com/vu.svg",
+      "top_level_domain": [
+        ".vu"
+      ],
+      "population": 264652,
+      "area_km2": 12189,
+      "timezones": [
+        "UTC+11:00"
+      ]
+    },
+    {
+      "name": "Venezuela, Bolivarian Republic of",
+      "official_name": "Venezuela, Bolivarian Republic of",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "VE",
+      "iso_alpha3": "VEN",
+      "iso_numeric": "862",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇻🇪",
+      "flag_svg_url": "https://flagcdn.com/ve.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Viet Nam",
+      "official_name": "Viet Nam",
+      "native_name": "",
+      "continent": "",
+      "region": "",
+      "subregion": "",
+      "capital": [],
+      "iso_alpha2": "VN",
+      "iso_alpha3": "VNM",
+      "iso_numeric": "704",
+      "calling_codes": [],
+      "currency": [],
+      "languages": [],
+      "flag_emoji": "🇻🇳",
+      "flag_svg_url": "https://flagcdn.com/vn.svg",
+      "top_level_domain": [],
+      "population": null,
+      "area_km2": null,
+      "timezones": []
+    },
+    {
+      "name": "Yemen",
+      "official_name": "Yemen",
+      "native_name": "اليَمَن",
+      "continent": "Asia",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "capital": "Sana'a",
+      "iso_alpha2": "YE",
+      "iso_alpha3": "YEM",
+      "iso_numeric": "887",
+      "calling_codes": [
+        "967"
+      ],
+      "currency": [
+        {
+          "code": "YER",
+          "name": "Yemeni Rial"
+        }
+      ],
+      "languages": [
+        "ar"
+      ],
+      "flag_emoji": "🇾🇪",
+      "flag_svg_url": "https://flagcdn.com/ye.svg",
+      "top_level_domain": [
+        ".ye"
+      ],
+      "population": 25956000,
+      "area_km2": 527968,
+      "timezones": [
+        "UTC+03:00"
+      ]
+    },
+    {
+      "name": "Zambia",
+      "official_name": "Zambia",
+      "native_name": "Zambia",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Lusaka",
+      "iso_alpha2": "ZM",
+      "iso_alpha3": "ZMB",
+      "iso_numeric": "894",
+      "calling_codes": [
+        "260"
+      ],
+      "currency": [
+        {
+          "code": "ZMK",
+          "name": "ZMK"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "flag_emoji": "🇿🇲",
+      "flag_svg_url": "https://flagcdn.com/zm.svg",
+      "top_level_domain": [
+        ".zm"
+      ],
+      "population": 15023315,
+      "area_km2": 752612,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "official_name": "Zimbabwe",
+      "native_name": "Zimbabwe",
+      "continent": "Afrika",
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "capital": "Harare",
+      "iso_alpha2": "ZW",
+      "iso_alpha3": "ZWE",
+      "iso_numeric": "716",
+      "calling_codes": [
+        "263"
+      ],
+      "currency": [
+        {
+          "code": "USD",
+          "name": "US Dollar"
+        }
+      ],
+      "languages": [
+        "en",
+        "sn",
+        "nd"
+      ],
+      "flag_emoji": "🇿🇼",
+      "flag_svg_url": "https://flagcdn.com/zw.svg",
+      "top_level_domain": [
+        ".zw"
+      ],
+      "population": 13061239,
+      "area_km2": 390757,
+      "timezones": [
+        "UTC+02:00"
+      ]
+    }
+  ]
+}

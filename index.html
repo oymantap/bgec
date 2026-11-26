@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Batalla Guess El Country</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card: rgba(20, 27, 45, 0.85);
+      --card-inner: rgba(11, 16, 29, 0.9);
+      --border: rgba(255, 255, 255, 0.09);
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.35);
+      --success: #10b981;
+      --danger: #ef4444;
+      --warning: #f59e0b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #131c33 0%, var(--bg) 65%);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 14px;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .header h1 {
+      font-size: 1.3rem;
+      margin: 0;
+      letter-spacing: 0.3px;
+      background: linear-gradient(90deg, #60a5fa, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header p {
+      margin: 4px 0 0;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .input-group {
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    input {
+      width: 100%;
+      padding: 13px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--card-inner);
+      color: var(--text);
+      font-size: 0.98rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    input:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    button {
+      width: 100%;
+      padding: 13px;
+      border-radius: 12px;
+      border: none;
+      font-size: 0.96rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.12s, opacity 0.2s, background 0.2s;
+    }
+
+    button:active { transform: scale(0.98); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-success {
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-warning {
+      background: linear-gradient(135deg, #d97706, #f59e0b);
+      color: #090d16;
+      margin-top: 10px;
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      margin-top: 10px;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 16px 0;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+    .divider::before, .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* TOP BAR & ROOM BADGE */
+    .room-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--card-inner);
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      font-size: 0.82rem;
+    }
+
+    .room-code-btn {
+      width: auto;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      border-radius: 8px;
+      background: rgba(59, 130, 246, 0.18);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.35);
+    }
+
+    .badge {
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .badge.waiting { background: rgba(245, 158, 11, 0.18); color: #fbbf24; }
+    .badge.playing { background: rgba(16, 185, 129, 0.18); color: #34d399; }
+    .badge.round_over { background: rgba(59, 130, 246, 0.18); color: #60a5fa; }
+    .badge.finished { background: rgba(239, 68, 68, 0.18); color: #f87171; }
+
+    /* PLAYERS SCOREBOARD */
+    .players-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .player-card {
+      background: var(--card-inner);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .player-card.me {
+      border-color: rgba(59, 130, 246, 0.55);
+      background: rgba(30, 58, 138, 0.22);
+    }
+
+    .player-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 110px;
+    }
+
+    .player-score {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #34d399;
+    }
+
+    /* ARENA CARD */
+    .arena-card {
+      background: var(--card-inner);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    .round-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.84rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .timer-pill {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+    .timer-pill.danger {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+    }
+
+    .flag-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 115px;
+      margin: 8px 0 14px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 12px;
+      border: 1px dashed rgba(255, 255, 255, 0.08);
+    }
+
+    .flag-img {
+      max-height: 88px;
+      max-width: 150px;
+      border-radius: 6px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+    }
+
+    .flag-emoji-fallback {
+      font-size: 4.2rem;
+    }
+
+    .clues-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .clue-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 8px 10px;
+    }
+
+    .clue-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 0.4px;
+    }
+
+    .clue-val {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 2px;
+      color: var(--text);
+    }
+
+    .banner-result {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    .banner-result.info { background: rgba(59, 130, 246, 0.16); color: #93c5fd; }
+    .banner-result.win { background: rgba(16, 185, 129, 0.18); color: #6ee7b7; }
+    .banner-result.err { background: rgba(239, 68, 68, 0.18); color: #fca5a5; }
+
+    /* PODIUM / FINISHED */
+    .podium-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    .podium-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+    }
+    .podium-item.rank-1 {
+      border-color: rgba(245, 158, 11, 0.5);
+      background: rgba(245, 158, 11, 0.12);
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <h1>Batalla Guess El Country</h1>
+      <p>Duel Tebak Negara • 193 anggota PBB</p>
+    </div>
+
+    <!-- LOBBY VIEW -->
+    <div id="lobbyView">
+      <div class="input-group">
+        <label for="playerName">Nama Pemain</label>
+        <input id="playerName" placeholder="Contoh: Rycl" maxlength="16" />
+      </div>
+
+      <button id="btnCreate" class="btn-primary">Buat Room Baru</button>
+      <button id="btnSingle" class="btn-ghost">Mode Latihan Solo</button>
+
+      <div class="divider">ATAU GABUNG ROOM</div>
+
+      <div class="input-group">
+        <label for="roomCodeInput">Kode Room</label>
+        <input id="roomCodeInput" placeholder="Masukkan 6 kode room..." maxlength="6" style="text-transform:uppercase" />
+      </div>
+      <button id="btnJoin" class="btn-success">🚪 Gabung ke Pertandingan</button>
+      <div id="lobbyMsg" class="banner-result err hidden"></div>
+    </div>
+
+    <!-- GAME VIEW -->
+    <div id="gameView" class="hidden">
+      <div class="room-bar">
+        <div>
+          Room: <button id="btnCopyCode" class="room-code-btn" title="Salin Kode">------ 📋</button>
+        </div>
+        <span id="statusBadge" class="badge waiting">WAITING</span>
+      </div>
+
+      <!-- SCOREBOARD SEMUA PEMAIN -->
+      <div class="players-grid" id="playersGrid"></div>
+
+      <!-- KARTU SOAL -->
+      <div class="arena-card" id="arenaCard">
+        <div class="round-header">
+          <span id="roundLabel">Menunggu Host memulai...</span>
+          <span id="timerPill" class="timer-pill">20s</span>
+        </div>
+
+        <div id="questionArea" class="hidden">
+          <div class="flag-box" id="flagBox"></div>
+
+          <div class="clues-grid" id="cluesGrid">
+            <div class="clue-item">
+              <div class="clue-label">Benua</div>
+              <div class="clue-val" id="clueContinent">-</div>
+            </div>
+            <div class="clue-item">
+              <div class="clue-label">Ibu Kota</div>
+              <div class="clue-val" id="clueCapital">-</div>
+            </div>
+            <div class="clue-item">
+              <div class="clue-label">Mata Uang</div>
+              <div class="clue-val" id="clueCurrency">-</div>
+            </div>
+            <div class="clue-item">
+              <div class="clue-label">Kode Telepon</div>
+              <div class="clue-val" id="clueCalling">-</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KARTU HASIL AKHIR (FINISHED) -->
+        <div id="finishedArea" class="hidden">
+          <h3 style="margin:6px 0 4px; text-align:center;">🏆 Hasil Akhir Pertandingan</h3>
+          <div class="podium-list" id="podiumList"></div>
+        </div>
+      </div>
+
+      <!-- FORM TEBAKAN -->
+      <div id="guessControls" class="hidden">
+        <input id="guessInput" placeholder="Ketik nama negara (ID / EN)..." autocomplete="off" />
+        <button id="btnGuess" class="btn-success" style="margin-top:8px;">Kirim Tebakan</button>
+      </div>
+
+      <div id="feedbackBanner" class="banner-result info hidden"></div>
+
+      <!-- TOMBOL KONTROL HOST -->
+      <button id="btnStartNext" class="btn-primary hidden" style="margin-top:10px;">▶ Mulai Ronde 1</button>
+      <button id="btnRematch" class="btn-warning hidden">🔄 Main Lagi (Rematch)</button>
+      <button id="btnLeave" class="btn-ghost">Keluar Room</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    import {
+      getDatabase, ref, set, get, update, onValue, runTransaction, serverTimestamp
+    } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js";
+
+    // GANTI DENGAN CONFIG FIREBASE PROYEK LU
+const firebaseConfig = {
+  apiKey: "AIzaSyASF3AntmoA5q8ms-JEyHHbBuRDkltXXQY",
+  authDomain: "quizgamemultiplayer-e689d.firebaseapp.com",
+  databaseURL: "https://quizgamemultiplayer-e689d-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "quizgamemultiplayer-e689d",
+  storageBucket: "quizgamemultiplayer-e689d.firebasestorage.app",
+  messagingSenderId: "634784156900",
+  appId: "1:634784156900:web:e75b9041132e0a07c1f0f1",
+  measurementId: "G-FN72FFQ65K"
+};
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    const ROUND_DURATION = 20; // 20 detik per ronde
+    const MAX_ROUNDS = 10;
+
+    // Persist playerId di sessionStorage biar tiap tab (termasuk incognito) punya ID unik & gak hilang pas reconnect
+    let playerId = sessionStorage.getItem("bgec_pid");
+    if (!playerId) {
+      playerId = "p_" + Math.random().toString(36).slice(2, 9);
+      sessionStorage.setItem("bgec_pid", playerId);
+    }
+
+    let COUNTRIES = [];
+    let currentRoom = null;
+    let roomState = null;
+    let myDisplayName = localStorage.getItem("bgec_name") || "";
+    let timerInterval = null;
+    let timeoutTriggeredForRound = 0;
+
+    const $ = (id) => document.getElementById(id);
+    $("playerName").value = myDisplayName;
+
+    const normalize = (str) =>
+      str.trim().toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]/g, "");
+
+    async function loadCountries() {
+      const res = await fetch("./un_countries.json");
+      const data = await res.json();
+      COUNTRIES = data.countries || data;
+    }
+    loadCountries();
+
+    // Mode latihan lokal: tidak memakai Firebase, clue aktif hanya pada mode ini.
+    let practiceMode = false, practiceRound = 0, practiceScore = 0, practiceTarget = null, practiceTimer = null, practiceSeconds = 20;
+    const PRACTICE_ROUNDS = 10;
+    function startPractice() {
+      if (!COUNTRIES.length) return showLobbyError("Data negara belum selesai dimuat...");
+      practiceMode = true; practiceRound = 0; practiceScore = 0;
+      currentRoom = "LATIHAN";
+      $("lobbyView").classList.add("hidden"); $("gameView").classList.remove("hidden");
+      document.body.classList.add("practice-mode"); document.body.classList.remove("multiplayer-mode");
+      $("btnCopyCode").textContent = "LATIHAN"; $("statusBadge").textContent = "PRACTICE"; $("statusBadge").className="badge playing";
+      $("playersGrid").innerHTML = `<div class="player-card me"><span class="player-name">${escapeHtml($('playerName').value.trim() || 'Pemain')}</span><span class="player-score" id="practiceScore">0</span></div>`;
+      $("btnStartNext").classList.remove("hidden"); $("btnStartNext").textContent="Mulai Latihan"; $("btnRematch").classList.add("hidden");
+      $("guessControls").classList.add("hidden"); $("finishedArea").classList.add("hidden"); $("feedbackBanner").classList.add("hidden");
+      $("roundLabel").textContent="Latihan solo • 10 ronde"; $("timerPill").textContent="20s";
+      $("btnStartNext").onclick = nextPracticeRound;
+    }
+    function nextPracticeRound() {
+      if (practiceRound >= PRACTICE_ROUNDS) return finishPractice();
+      practiceRound++; practiceSeconds=20; practiceTarget=COUNTRIES[Math.floor(Math.random()*COUNTRIES.length)];
+      $("roundLabel").textContent=`Latihan ${practiceRound} / ${PRACTICE_ROUNDS}`;
+      $("timerPill").textContent="20s"; $("timerPill").classList.remove("danger");
+      $("flagBox").innerHTML=`<img class="flag-img" src="${practiceTarget.flag_png_url}" alt="Bendera" onerror="this.outerHTML='<div class=\'flag-emoji-fallback\'>${practiceTarget.flag_emoji}</div>'"/>`;
+      $("clueContinent").textContent=practiceTarget.continent; $("clueCapital").textContent=practiceTarget.capital;
+      $("clueCurrency").textContent=`${practiceTarget.currency_code} (${practiceTarget.currency_symbol})`; $("clueCalling").textContent=practiceTarget.calling_code;
+      $("questionArea").classList.remove("hidden"); $("finishedArea").classList.add("hidden"); $("guessControls").classList.remove("hidden");
+      $("btnStartNext").classList.add("hidden"); $("guessInput").value=""; $("guessInput").disabled=false; $("btnGuess").disabled=false; $("feedbackBanner").classList.add("hidden"); $("guessInput").focus();
+      if(practiceTimer) clearInterval(practiceTimer);
+      practiceTimer=setInterval(()=>{ practiceSeconds--; $("timerPill").textContent=practiceSeconds+"s"; if(practiceSeconds<=5)$("timerPill").classList.add("danger"); if(practiceSeconds<=0){clearInterval(practiceTimer);practiceAnswer(false,true);} },1000);
+    }
+    function practiceAnswer(correct, timedOut=false) {
+      clearInterval(practiceTimer); $("guessControls").classList.add("hidden"); $("btnStartNext").classList.remove("hidden");
+      $("btnStartNext").textContent=practiceRound>=PRACTICE_ROUNDS?"Lihat Hasil":"Ronde Berikutnya";
+      if(correct){ practiceScore+=Math.max(50,150-(20-practiceSeconds)*5); }
+      $("playersGrid").querySelector(".player-score").textContent=practiceScore;
+      setBanner(timedOut?`Waktu habis. Jawaban: ${practiceTarget.name_id} / ${practiceTarget.name}`:correct?`Benar! +${Math.max(50,150-(20-practiceSeconds)*5)} poin`:`Jawaban: ${practiceTarget.name_id} / ${practiceTarget.name}`,correct?"win":"err");
+      $("btnStartNext").onclick=nextPracticeRound;
+    }
+    function finishPractice(){
+      $("questionArea").classList.add("hidden"); $("guessControls").classList.add("hidden"); $("finishedArea").classList.remove("hidden");
+      $("roundLabel").textContent="Latihan selesai"; $("podiumList").innerHTML=`<div class="podium-item rank-1"><strong>Skor latihan</strong><span style="font-weight:800;color:#8fd4b8">${practiceScore} pts</span></div>`;
+      $("btnStartNext").classList.add("hidden"); $("btnRematch").classList.remove("hidden"); $("btnRematch").textContent="Ulang Latihan"; $("btnRematch").onclick=startPractice;
+    }
+    $("btnSingle").onclick=startPractice;
+
+
+    function generateRoomCode() {
+      const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+      let code = "";
+      for (let i = 0; i < 6; i++) code += chars[Math.floor(Math.random() * chars.length)];
+      return code;
+    }
+
+    function pickUnusedCountryId(usedIds = []) {
+      const pool = COUNTRIES.filter((c) => !usedIds.includes(c.id));
+      const source = pool.length > 0 ? pool : COUNTRIES;
+      return source[Math.floor(Math.random() * source.length)].id;
+    }
+
+    function showLobbyError(msg) {
+      const el = $("lobbyMsg");
+      el.textContent = msg;
+      el.classList.remove("hidden");
+    }
+
+    // BUAT ROOM BARU
+    $("btnCreate").onclick = async () => {
+      if (!COUNTRIES.length) return showLobbyError("Data negara belum selesai dimuat...");
+      const name = $("playerName").value.trim() || "Host";
+      myDisplayName = name;
+      localStorage.setItem("bgec_name", name);
+
+      const code = generateRoomCode();
+      const firstId = pickUnusedCountryId([]);
+
+      await set(ref(db, `rooms/${code}`), {
+        status: "waiting",
+        hostId: playerId,
+        round: 0,
+        maxRounds: MAX_ROUNDS,
+        currentCountryId: firstId,
+        usedCountryIds: [firstId],
+        roundWinner: "",
+        roundAnswer: "",
+        roundStartedAt: Date.now(),
+        players: {
+          [playerId]: { name, score: 0, online: true }
+        }
+      });
+
+      enterRoom(code);
+    };
+
+    // GABUNG ROOM
+    $("btnJoin").onclick = async () => {
+      if (!COUNTRIES.length) return showLobbyError("Data negara belum selesai dimuat...");
+      const name = $("playerName").value.trim() || "Tamu";
+      const code = $("roomCodeInput").value.trim().toUpperCase();
+      if (code.length < 4) return showLobbyError("Masukkan kode room yang valid!");
+
+      myDisplayName = name;
+      localStorage.setItem("bgec_name", name);
+
+      const roomSnap = await get(ref(db, `rooms/${code}`));
+      if (!roomSnap.exists()) return showLobbyError("Room tidak ditemukan!");
+
+      // Gunakan update pada node spesifik player agar tidak menimpa pemain lain
+      await update(ref(db, `rooms/${code}/players/${playerId}`), {
+        name,
+        score: roomSnap.val().players?.[playerId]?.score || 0,
+        online: true
+      });
+
+      enterRoom(code);
+    };
+
+    function enterRoom(code) {
+      practiceMode = false; document.body.classList.remove("practice-mode"); document.body.classList.add("multiplayer-mode");
+      currentRoom = code;
+      $("lobbyView").classList.add("hidden");
+      $("gameView").classList.remove("hidden");
+      $("btnCopyCode").textContent = `${code} 📋`;
+
+      // Pantau status koneksi Firebase: jika sempat putus lalu nyambung lagi, pastikan data pemain tetap terdaftar
+      onValue(ref(db, ".info/connected"), (snap) => {
+        if (snap.val() === true && currentRoom) {
+          update(ref(db, `rooms/${currentRoom}/players/${playerId}`), {
+            name: myDisplayName,
+            online: true
+          });
+        }
+      });
+
+      onValue(ref(db, `rooms/${code}`), (snapshot) => {
+        if (!snapshot.exists()) {
+          alert("Room telah ditutup.");
+          location.reload();
+          return;
+        }
+        roomState = snapshot.val();
+        renderGame();
+      });
+
+      if (timerInterval) clearInterval(timerInterval);
+      timerInterval = setInterval(updateTimerUI, 250);
+    }
+
+    function updateTimerUI() {
+      if (!roomState || roomState.status !== "playing") {
+        $("timerPill").textContent = "--";
+        $("timerPill").classList.remove("danger");
+        return;
+      }
+
+      const elapsed = Math.floor((Date.now() - roomState.roundStartedAt) / 1000);
+      const remaining = Math.max(0, ROUND_DURATION - elapsed);
+      $("timerPill").textContent = `${remaining}s`;
+
+      if (remaining <= 5) $("timerPill").classList.add("danger");
+      else $("timerPill").classList.remove("danger");
+
+      // Jika waktu habis, host otomatis mengakhiri ronde
+      if (remaining === 0 && roomState.hostId === playerId && timeoutTriggeredForRound !== roomState.round) {
+        timeoutTriggeredForRound = roomState.round;
+        const country = COUNTRIES.find((c) => c.id === roomState.currentCountryId);
+        update(ref(db, `rooms/${currentRoom}`), {
+          status: "round_over",
+          roundWinner: "TIME_UP",
+          roundAnswer: country ? `${country.name_id} (${country.name})` : "-"
+        });
+      }
+    }
+
+    function renderGame() {
+      const playersObj = roomState.players || {};
+      const playerEntries = Object.entries(playersObj);
+
+      // Render daftar pemain secara stabil (urutan konsisten berdasarkan ID)
+      $("playersGrid").innerHTML = playerEntries
+        .sort(([idA], [idB]) => idA.localeCompare(idB))
+        .map(([pid, p]) => {
+          const isMe = pid === playerId;
+          const isHostTag = pid === roomState.hostId ? " 👑" : "";
+          return `
+            <div class="player-card ${isMe ? "me" : ""}">
+              <div class="player-name">${escapeHtml(p.name)}${isHostTag}</div>
+              <div class="player-score">${p.score ?? 0}</div>
+            </div>
+          `;
+        })
+        .join("");
+
+      const badge = $("statusBadge");
+      badge.textContent = roomState.status.replace("_", " ");
+      badge.className = `badge ${roomState.status}`;
+
+      const isHost = roomState.hostId === playerId;
+
+      // Kontrol tombol Host
+      $("btnStartNext").classList.add("hidden");
+      $("btnRematch").classList.add("hidden");
+
+      if (isHost) {
+        if (roomState.status === "waiting") {
+          $("btnStartNext").textContent = "▶ Mulai Ronde 1";
+          $("btnStartNext").classList.remove("hidden");
+        } else if (roomState.status === "round_over") {
+          $("btnStartNext").textContent =
+            roomState.round >= roomState.maxRounds ? "🏁 Lihat Hasil Akhir" : `➡ Lanjut Ronde ${roomState.round + 1}`;
+          $("btnStartNext").classList.remove("hidden");
+        } else if (roomState.status === "finished") {
+          $("btnRematch").classList.remove("hidden");
+        }
+      }
+
+      // Tampilan state WAITING
+      if (roomState.status === "waiting") {
+        $("roundLabel").textContent = `Menunggu Host (${playerEntries.length} pemain di room)`;
+        $("questionArea").classList.add("hidden");
+        $("finishedArea").classList.add("hidden");
+        $("guessControls").classList.add("hidden");
+        setBanner("Bagikan kode room ke lawan, lalu Host klik Mulai.", "info");
+        return;
+      }
+
+      // Tampilan state FINISHED
+      if (roomState.status === "finished") {
+        $("roundLabel").textContent = `Selesai (${roomState.maxRounds} Ronde)`;
+        $("questionArea").classList.add("hidden");
+        $("guessControls").classList.add("hidden");
+        $("finishedArea").classList.remove("hidden");
+        $("feedbackBanner").classList.add("hidden");
+
+        const ranked = playerEntries
+          .map(([pid, p]) => ({ pid, name: p.name, score: p.score ?? 0 }))
+          .sort((a, b) => b.score - a.score);
+
+        $("podiumList").innerHTML = ranked
+          .map((p, i) => `
+            <div class="podium-item ${i === 0 ? "rank-1" : ""}">
+              <span>${i === 0 ? "🥇" : i === 1 ? "🥈" : "🎖️"} <strong>${escapeHtml(p.name)}</strong></span>
+              <span style="font-weight:800; color:#34d399;">${p.score} pts</span>
+            </div>
+          `)
+          .join("");
+        return;
+      }
+
+      // Tampilan state PLAYING atau ROUND_OVER
+      $("finishedArea").classList.add("hidden");
+      $("questionArea").classList.remove("hidden");
+      $("roundLabel").textContent = `Ronde ${roomState.round} / ${roomState.maxRounds}`;
+
+      const country = COUNTRIES.find((c) => c.id === roomState.currentCountryId);
+      if (country) {
+        // Pakai gambar bendera SVG/PNG crisp + fallback emoji kalau offline
+        $("flagBox").innerHTML = `
+          <img class="flag-img" src="${country.flag_png_url}" alt="Bendera"
+               onerror="this.outerHTML='<div class=\\'flag-emoji-fallback\\'>${country.flag_emoji}</div>'" />
+        `;
+        $("clueContinent").textContent = country.continent;
+        $("clueCapital").textContent = country.capital;
+        $("clueCurrency").textContent = `${country.currency_code} (${country.currency_symbol})`;
+        $("clueCalling").textContent = country.calling_code;
+      }
+
+      if (roomState.status === "playing") {
+        $("guessControls").classList.remove("hidden");
+        $("guessInput").disabled = false;
+        $("btnGuess").disabled = false;
+        if ($("feedbackBanner").dataset.mode !== "wrong") {
+          $("feedbackBanner").classList.add("hidden");
+        }
+      } else if (roomState.status === "round_over") {
+        $("guessControls").classList.add("hidden");
+        $("feedbackBanner").dataset.mode = "";
+        if (roomState.roundWinner === "TIME_UP") {
+          setBanner(`⏰ Waktu habis! Jawabannya: ${roomState.roundAnswer}`, "err");
+        } else {
+          setBanner(`🎉 ${roomState.roundWinner} menjawab benar! (${roomState.roundAnswer})`, "win");
+        }
+      }
+    }
+
+    function setBanner(text, type = "info") {
+      const el = $("feedbackBanner");
+      el.textContent = text;
+      el.className = `banner-result ${type}`;
+      el.classList.remove("hidden");
+    }
+
+    function escapeHtml(str) {
+      return String(str).replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[m]));
+    }
+
+    // HOST MULAI / LANJUT RONDE
+    $("btnStartNext").onclick = async () => {
+      if (!roomState || roomState.hostId !== playerId) return;
+      const nextRound = roomState.round + 1;
+
+      if (nextRound > roomState.maxRounds) {
+        await update(ref(db, `rooms/${currentRoom}`), { status: "finished" });
+        return;
+      }
+
+      const used = roomState.usedCountryIds || [];
+      const nextCountryId = pickUnusedCountryId(used);
+
+      await update(ref(db, `rooms/${currentRoom}`), {
+        status: "playing",
+        round: nextRound,
+        currentCountryId: nextCountryId,
+        usedCountryIds: [...used, nextCountryId],
+        roundWinner: "",
+        roundAnswer: "",
+        roundStartedAt: Date.now()
+      });
+
+      $("feedbackBanner").dataset.mode = "";
+      $("guessInput").value = "";
+      $("guessInput").focus();
+    };
+
+    // HOST REMATCH
+    $("btnRematch").onclick = async () => {
+      if (!roomState || roomState.hostId !== playerId) return;
+      const firstId = pickUnusedCountryId([]);
+      const resetPlayers = {};
+      for (const [pid, p] of Object.entries(roomState.players || {})) {
+        resetPlayers[pid] = { name: p.name, score: 0, online: true };
+      }
+
+      await update(ref(db, `rooms/${currentRoom}`), {
+        status: "playing",
+        round: 1,
+        currentCountryId: firstId,
+        usedCountryIds: [firstId],
+        roundWinner: "",
+        roundAnswer: "",
+        roundStartedAt: Date.now(),
+        players: resetPlayers
+      });
+    };
+
+    // KIRIM TEBAKAN
+    async function submitGuess() {
+      if (practiceMode) { const raw=$("guessInput").value; if(!raw.trim())return; const ans=normalize(raw), en=normalize(practiceTarget.name), id=normalize(practiceTarget.name_id); practiceAnswer(ans===en||ans===id); return; }
+      if (!roomState || roomState.status !== "playing") return;
+      const raw = $("guessInput").value;
+      if (!raw.trim()) return;
+
+      const country = COUNTRIES.find((c) => c.id === roomState.currentCountryId);
+      if (!country) return;
+
+      const userAns = normalize(raw);
+      const validEn = normalize(country.name);
+      const validId = normalize(country.name_id);
+
+      if (userAns !== validEn && userAns !== validId) {
+        $("feedbackBanner").dataset.mode = "wrong";
+        setBanner("❌ Salah! Coba lagi.", "err");
+        $("guessInput").select();
+        return;
+      }
+
+      // Transaction hanya pada state ronde & skor pemain pemenang agar tidak menghapus pemain lain
+      await runTransaction(ref(db, `rooms/${currentRoom}`), (current) => {
+        if (!current || current.status !== "playing") return current;
+        if (!current.players) current.players = {};
+        if (!current.players[playerId]) {
+          current.players[playerId] = { name: myDisplayName, score: 0, online: true };
+        }
+
+        const elapsedSec = Math.floor((Date.now() - current.roundStartedAt) / 1000);
+        const earned = Math.max(50, 150 - elapsedSec * 5);
+
+        current.players[playerId].score = (current.players[playerId].score || 0) + earned;
+        current.status = "round_over";
+        current.roundWinner = `${myDisplayName} (+${earned})`;
+        current.roundAnswer = `${country.name_id} / ${country.name}`;
+        return current;
+      });
+
+      $("feedbackBanner").dataset.mode = "";
+      $("guessInput").value = "";
+    }
+
+    $("btnGuess").onclick = submitGuess;
+    $("guessInput").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") submitGuess();
+    });
+
+    $("btnCopyCode").onclick = () => {
+      if (!currentRoom) return;
+      navigator.clipboard?.writeText(currentRoom);
+      $("btnCopyCode").textContent = `${currentRoom} ✅`;
+      setTimeout(() => { $("btnCopyCode").textContent = `${currentRoom} 📋`; }, 1500);
+    };
+
+    $("btnLeave").onclick = () => {
+      location.reload();
+    };
+  </script>
+</body>
+</html>
