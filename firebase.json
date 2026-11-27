@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "bgec",
     "public": ".",
     "ignore": [
       "firebase.json",
